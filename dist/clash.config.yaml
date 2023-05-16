@@ -3846,122 +3846,6 @@ proxies:
   sni: 421421.xyz
   type: trojan
   udp: true
-- cipher: aes-256-gcm
-  name: 🇺🇸_US_美国_1_15@2
-  password: faBAoD54k87UJG7
-  port: 2375
-  server: 167.88.63.79
-  type: ss
-- cipher: aes-256-gcm
-  name: 🇺🇸_US_美国_2_15@3
-  password: e4FCWrgpkji3QY
-  port: 9101
-  server: 167.88.63.79
-  type: ss
-- cipher: aes-256-gcm
-  name: 🇺🇸_US_美国_8_15@14
-  password: Y6R9pAtvxxzmGC
-  port: 3306
-  server: 167.88.63.79
-  type: ss
-- cipher: aes-256-gcm
-  name: 🇳🇱_NL_荷兰_8_15@17
-  password: pKEW8JPByTVTLtM
-  port: 4444
-  server: 172.99.188.99
-  type: ss
-- cipher: aes-256-gcm
-  name: 🇺🇸_US_美国_10_15@19
-  password: faBAoD54k87UJG7
-  port: 2375
-  server: 38.75.136.102
-  type: ss
-- cipher: aes-256-gcm
-  name: 🇺🇸_US_美国_13_15@22
-  password: XKFKl2rULjIp74
-  port: 8009
-  server: 167.88.63.79
-  type: ss
-- cipher: aes-256-gcm
-  name: 🇺🇸_US_美国_14_15@23
-  password: PCnnH6SQSnfoS27
-  port: 8090
-  server: ak1582.fr8678825324247b8176d59f83c30bd94d23d2e3ac5cd4a743bkwqeikvdyufr.cyou
-  type: ss
-- alterId: 64
-  cipher: auto
-  name: 🇺🇸_US_美国_15_15@25
-  network: tcp
-  port: 56002
-  server: 192.74.239.199
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- alterId: 0
-  cipher: auto
-  name: 🇸🇬_SG_新加坡_1_15@27
-  network: ws
-  port: 80
-  server: sg2.ph5gvpn.online
-  servername: sg2.ph5gvpn.online
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: addbf473-e902-419d-b18d-74dcf1a4799a
-  ws-opts:
-    path: /ph5gvpn
-- cipher: aes-256-gcm
-  name: 🇺🇸_US_美国_16_15@28
-  password: pKEW8JPByTVTLtM
-  port: 443
-  server: 38.75.136.102
-  type: ss
-- alterId: 0
-  cipher: auto
-  name: 🇨🇳_CN_中国_15@30
-  port: 11023
-  server: 36.134.16.190
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 8c042a38-71c1-1dcb-00df-54880236e0dc
-- alterId: 0
-  cipher: auto
-  name: 🇻🇳_VN_越南->🇩🇪_DE_德国_15@31
-  port: 20
-  server: 103.179.172.5
-  servername: 103.179.172.5
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 0da1d372-ec60-4b89-8a3f-79159438c6f0
-- alterId: 0
-  cipher: auto
-  name: 🇸🇬_SG_新加坡_2_15@32
-  network: ws
-  port: 80
-  server: 188.166.188.209
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: addbf473-e902-419d-b18d-74dcf1a4799a
-  ws-opts:
-    path: /ph5gvpn
-- alterId: 0
-  cipher: auto
-  name: 🇺🇸_US_美国->🇳🇱_NL_荷兰_15@34
-  network: ws
-  port: 443
-  server: cdnjs.com
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: DCE76061-EE65-49DB-997C-A6A880DADE3A
-  ws-opts:
-    headers:
-      host: Amsterdam.kotick.site
-    path: /speedtest
 proxy-groups:
 - name: 🚀 节点选择
   proxies:
@@ -4351,20 +4235,6 @@ proxy-groups:
   - 🇺🇸_US_美国_14_14@28
   - 🇺🇸_US_美国_15_14@30
   - 🇯🇵_JP_日本_4_14@31
-  - 🇺🇸_US_美国_1_15@2
-  - 🇺🇸_US_美国_2_15@3
-  - 🇺🇸_US_美国_8_15@14
-  - 🇳🇱_NL_荷兰_8_15@17
-  - 🇺🇸_US_美国_10_15@19
-  - 🇺🇸_US_美国_13_15@22
-  - 🇺🇸_US_美国_14_15@23
-  - 🇺🇸_US_美国_15_15@25
-  - 🇸🇬_SG_新加坡_1_15@27
-  - 🇺🇸_US_美国_16_15@28
-  - 🇨🇳_CN_中国_15@30
-  - 🇻🇳_VN_越南->🇩🇪_DE_德国_15@31
-  - 🇸🇬_SG_新加坡_2_15@32
-  - 🇺🇸_US_美国->🇳🇱_NL_荷兰_15@34
   type: select
 - interval: 300
   name: ♻️ 自动选择
@@ -4753,20 +4623,6 @@ proxy-groups:
   - 🇺🇸_US_美国_14_14@28
   - 🇺🇸_US_美国_15_14@30
   - 🇯🇵_JP_日本_4_14@31
-  - 🇺🇸_US_美国_1_15@2
-  - 🇺🇸_US_美国_2_15@3
-  - 🇺🇸_US_美国_8_15@14
-  - 🇳🇱_NL_荷兰_8_15@17
-  - 🇺🇸_US_美国_10_15@19
-  - 🇺🇸_US_美国_13_15@22
-  - 🇺🇸_US_美国_14_15@23
-  - 🇺🇸_US_美国_15_15@25
-  - 🇸🇬_SG_新加坡_1_15@27
-  - 🇺🇸_US_美国_16_15@28
-  - 🇨🇳_CN_中国_15@30
-  - 🇻🇳_VN_越南->🇩🇪_DE_德国_15@31
-  - 🇸🇬_SG_新加坡_2_15@32
-  - 🇺🇸_US_美国->🇳🇱_NL_荷兰_15@34
   tolerance: 50
   type: url-test
   url: http://www.gstatic.com/generate_204
@@ -5159,20 +5015,6 @@ proxy-groups:
   - 🇺🇸_US_美国_14_14@28
   - 🇺🇸_US_美国_15_14@30
   - 🇯🇵_JP_日本_4_14@31
-  - 🇺🇸_US_美国_1_15@2
-  - 🇺🇸_US_美国_2_15@3
-  - 🇺🇸_US_美国_8_15@14
-  - 🇳🇱_NL_荷兰_8_15@17
-  - 🇺🇸_US_美国_10_15@19
-  - 🇺🇸_US_美国_13_15@22
-  - 🇺🇸_US_美国_14_15@23
-  - 🇺🇸_US_美国_15_15@25
-  - 🇸🇬_SG_新加坡_1_15@27
-  - 🇺🇸_US_美国_16_15@28
-  - 🇨🇳_CN_中国_15@30
-  - 🇻🇳_VN_越南->🇩🇪_DE_德国_15@31
-  - 🇸🇬_SG_新加坡_2_15@32
-  - 🇺🇸_US_美国->🇳🇱_NL_荷兰_15@34
   type: select
 - name: 📲 电报信息
   proxies:
@@ -5562,20 +5404,6 @@ proxy-groups:
   - 🇺🇸_US_美国_14_14@28
   - 🇺🇸_US_美国_15_14@30
   - 🇯🇵_JP_日本_4_14@31
-  - 🇺🇸_US_美国_1_15@2
-  - 🇺🇸_US_美国_2_15@3
-  - 🇺🇸_US_美国_8_15@14
-  - 🇳🇱_NL_荷兰_8_15@17
-  - 🇺🇸_US_美国_10_15@19
-  - 🇺🇸_US_美国_13_15@22
-  - 🇺🇸_US_美国_14_15@23
-  - 🇺🇸_US_美国_15_15@25
-  - 🇸🇬_SG_新加坡_1_15@27
-  - 🇺🇸_US_美国_16_15@28
-  - 🇨🇳_CN_中国_15@30
-  - 🇻🇳_VN_越南->🇩🇪_DE_德国_15@31
-  - 🇸🇬_SG_新加坡_2_15@32
-  - 🇺🇸_US_美国->🇳🇱_NL_荷兰_15@34
   type: select
 - name: Ⓜ️ 微软服务
   proxies:
@@ -5965,20 +5793,6 @@ proxy-groups:
   - 🇺🇸_US_美国_14_14@28
   - 🇺🇸_US_美国_15_14@30
   - 🇯🇵_JP_日本_4_14@31
-  - 🇺🇸_US_美国_1_15@2
-  - 🇺🇸_US_美国_2_15@3
-  - 🇺🇸_US_美国_8_15@14
-  - 🇳🇱_NL_荷兰_8_15@17
-  - 🇺🇸_US_美国_10_15@19
-  - 🇺🇸_US_美国_13_15@22
-  - 🇺🇸_US_美国_14_15@23
-  - 🇺🇸_US_美国_15_15@25
-  - 🇸🇬_SG_新加坡_1_15@27
-  - 🇺🇸_US_美国_16_15@28
-  - 🇨🇳_CN_中国_15@30
-  - 🇻🇳_VN_越南->🇩🇪_DE_德国_15@31
-  - 🇸🇬_SG_新加坡_2_15@32
-  - 🇺🇸_US_美国->🇳🇱_NL_荷兰_15@34
   type: select
 - name: 🍎 苹果服务
   proxies:
@@ -6368,20 +6182,6 @@ proxy-groups:
   - 🇺🇸_US_美国_14_14@28
   - 🇺🇸_US_美国_15_14@30
   - 🇯🇵_JP_日本_4_14@31
-  - 🇺🇸_US_美国_1_15@2
-  - 🇺🇸_US_美国_2_15@3
-  - 🇺🇸_US_美国_8_15@14
-  - 🇳🇱_NL_荷兰_8_15@17
-  - 🇺🇸_US_美国_10_15@19
-  - 🇺🇸_US_美国_13_15@22
-  - 🇺🇸_US_美国_14_15@23
-  - 🇺🇸_US_美国_15_15@25
-  - 🇸🇬_SG_新加坡_1_15@27
-  - 🇺🇸_US_美国_16_15@28
-  - 🇨🇳_CN_中国_15@30
-  - 🇻🇳_VN_越南->🇩🇪_DE_德国_15@31
-  - 🇸🇬_SG_新加坡_2_15@32
-  - 🇺🇸_US_美国->🇳🇱_NL_荷兰_15@34
   type: select
 - name: 🎯 全球直连
   proxies:
@@ -6788,20 +6588,6 @@ proxy-groups:
   - 🇺🇸_US_美国_14_14@28
   - 🇺🇸_US_美国_15_14@30
   - 🇯🇵_JP_日本_4_14@31
-  - 🇺🇸_US_美国_1_15@2
-  - 🇺🇸_US_美国_2_15@3
-  - 🇺🇸_US_美国_8_15@14
-  - 🇳🇱_NL_荷兰_8_15@17
-  - 🇺🇸_US_美国_10_15@19
-  - 🇺🇸_US_美国_13_15@22
-  - 🇺🇸_US_美国_14_15@23
-  - 🇺🇸_US_美国_15_15@25
-  - 🇸🇬_SG_新加坡_1_15@27
-  - 🇺🇸_US_美国_16_15@28
-  - 🇨🇳_CN_中国_15@30
-  - 🇻🇳_VN_越南->🇩🇪_DE_德国_15@31
-  - 🇸🇬_SG_新加坡_2_15@32
-  - 🇺🇸_US_美国->🇳🇱_NL_荷兰_15@34
   type: select
 rules:
 - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
