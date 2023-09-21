@@ -5705,174 +5705,7 @@ proxies:
     path: /blue
 - alterId: 0
   cipher: auto
-  name: 🇺🇸_US_美国_4_23@3
-  network: ws
-  port: 80
-  server: 172.67.212.44
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 5f751c6e-50b1-4797-ba8e-6ffe324a0bce
-  ws-opts:
-    headers:
-      host: dp3.scproxy.top
-    path: /shirker
-- alterId: 0
-  cipher: auto
-  name: 🇺🇸_US_美国_5_23@4
-  network: ws
-  port: 80
-  server: 172.67.152.248
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 5f751c6e-50b1-4797-ba8e-6ffe324a0bce
-  ws-opts:
-    headers:
-      host: lv2.scproxy.top
-    path: /shirker
-- alterId: 0
-  cipher: auto
-  name: 🇺🇸_US_美国_6_23@5
-  network: ws
-  port: 80
-  server: 104.17.159.28
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 185d6ff9-a0a7-4d39-f3e8-783b7a6bbc79
-  ws-opts:
-    headers:
-      host: tui.vtcss.top
-    path: /blue
-- alterId: 0
-  cipher: auto
-  name: 🇺🇸_US_美国_7_23@6
-  network: ws
-  port: 443
-  server: ahsorathiyaa.fly.dev
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: de04add9-5c68-8bab-950c-08cd5320df18
-  ws-opts:
-    headers:
-      host: ahsorathiyaa.fly.dev
-    path: /vmess
-- name: 🇫🇷_FR_法国_23@7
-  network: tcp
-  password: 29f2cf65-f0ee-4a08-83f3-df1beb74d55d
-  port: 443
-  server: 57.128.173.6
-  skip-cert-verify: true
-  sni: www.speedtest.net
-  type: trojan
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 🇨🇳_CN_中国->🇹🇼_TW_台湾_23@8
-  password: d7bee830-09aa-43b2-8945-3b341b8787db
-  port: 23102
-  server: p1.bxy-fun1.com
-  type: ss
-- cipher: aes-256-cfb
-  name: 🇸🇬_SG_新加坡_1_23@9
-  password: eIW0Dnk69454e6nSwuspv9DmS201tQ0D
-  port: 8099
-  server: 139.162.5.19
-  type: ss
-- alterId: 0
-  cipher: auto
-  name: 🇺🇸_US_美国_8_23@13
-  network: ws
-  port: 80
-  server: 104.19.206.172
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 4714b6cc-a9f0-4db0-a215-d668e6c3b0a7
-  ws-opts:
-    headers:
-      host: jk.maxop002.tk
-    path: /123
-- alterId: 0
-  cipher: auto
-  name: 🇺🇸_US_美国_10_23@16
-  network: ws
-  port: 80
-  server: 104.27.43.111
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 185d6ff9-a0a7-4d39-f3e8-783b7a6bbc79
-  ws-opts:
-    headers:
-      host: tui.vtcss.top
-    path: /blue
-- cipher: aes-256-cfb
-  name: 🇸🇬_SG_新加坡_2_23@20
-  password: amazonskr05
-  port: 443
-  server: 13.215.161.16
-  type: ss
-- alterId: 0
-  cipher: auto
-  name: 🇹🇼_TW_台湾_23@23
-  network: ws
-  port: 36555
-  server: hinet.guguyun.pw
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: b223ac7e-4f14-4ec7-bd9d-7aaedecda32b
-  ws-opts:
-    headers:
-      host: hinet.guguyun.pw
-    path: /
-- alterId: 64
-  cipher: auto
-  name: 🇺🇸_US_美国_14_23@25
-  network: tcp
-  port: 51009
-  server: 198.200.37.231
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- cipher: aes-256-cfb
-  name: 🇸🇬_SG_新加坡_3_23@26
-  password: amazonskr05
-  port: 443
-  server: 54.255.43.76
-  type: ss
-- alterId: 0
-  cipher: auto
-  name: 🇩🇪_DE_德国_23@27
-  network: ws
-  port: 8443
-  server: 45.32.153.201
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 3d0c8ee5-3329-4252-aa1c-65f3fdaa0343
-  ws-opts:
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 🇺🇸_US_美国_16_23@29
-  network: ws
-  port: 2082
-  server: Tokyo.Mfa.EE
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 250f4331-8c3e-4b87-a86b-5c5fbf9ddba8
-  ws-opts:
-    headers:
-      host: scw-fr.iiio.wiki
-    path: /aries?ed=2048
-- alterId: 0
-  cipher: auto
-  name: 🇨🇳_CN_中国->🇸🇬_SG_新加坡_1_24@1
+  name: 🇨🇳_CN_中国->🇸🇬_SG_新加坡_1_23@1
   network: tcp
   port: 34322
   server: zjxc.pmxu.link
@@ -5881,14 +5714,14 @@ proxies:
   type: vmess
   uuid: e33aee02-9ab2-365e-840b-47fe8597c425
 - cipher: chacha20-ietf-poly1305
-  name: 🇨🇳_CN_中国->🇸🇬_SG_新加坡_2_24@2
+  name: 🇨🇳_CN_中国->🇸🇬_SG_新加坡_2_23@2
   password: 45cdaeb3-7fce-49ae-a12c-3879d9cab756
   port: 24960
   server: free.node.kk-proxy.pro
   type: ss
 - alterId: 0
   cipher: auto
-  name: 🇨🇳_CN_中国->🇹🇼_TW_台湾_24@4
+  name: 🇨🇳_CN_中国->🇹🇼_TW_台湾_23@4
   network: tcp
   port: 44207
   server: zjxc.pmxu.link
@@ -5898,7 +5731,7 @@ proxies:
   uuid: 3f9dc929-5af2-3a3d-8744-983547eddde0
 - alterId: 64
   cipher: auto
-  name: 🇨🇳_CN_中国->🇭🇰_HK_香港_24@5
+  name: 🇨🇳_CN_中国->🇭🇰_HK_香港_23@5
   network: tcp
   port: 51504
   server: 120.233.43.62
@@ -5907,14 +5740,14 @@ proxies:
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - cipher: aes-256-cfb
-  name: 🇰🇷_KR_韩国_24@7
+  name: 🇰🇷_KR_韩国_23@7
   password: amazonskr05
   port: 443
   server: 43.201.61.124
   type: ss
 - alterId: 0
   cipher: auto
-  name: 🇺🇸_US_美国_2_24@9
+  name: 🇺🇸_US_美国_2_23@9
   network: ws
   port: 80
   server: 172.67.57.119
@@ -5928,7 +5761,7 @@ proxies:
     path: /shirker
 - alterId: 0
   cipher: auto
-  name: 🇺🇸_US_美国_3_24@11
+  name: 🇺🇸_US_美国_3_23@11
   network: ws
   port: 80
   server: 172.67.127.46
@@ -5940,7 +5773,7 @@ proxies:
     headers:
       host: lv2.scproxy.top
     path: /shirker
-- name: 🇨🇦_CA_加拿大_1_24@12
+- name: 🇨🇦_CA_加拿大_1_23@12
   network: tcp
   password: 006e3baa-cacd-4530-ae52-d633c4e9056d
   port: 443
@@ -5951,7 +5784,7 @@ proxies:
   udp: true
 - alterId: 0
   cipher: auto
-  name: 🇺🇸_US_美国->🇷🇺_RU_俄罗斯联邦_24@16
+  name: 🇺🇸_US_美国->🇷🇺_RU_俄罗斯联邦_23@16
   network: ws
   port: 80
   server: ru1.mianfenyun012.eu.org
@@ -5965,7 +5798,7 @@ proxies:
     path: /jdbp606
 - alterId: 0
   cipher: auto
-  name: 🇨🇳_CN_中国->🇯🇵_JP_日本_24@20
+  name: 🇨🇳_CN_中国->🇯🇵_JP_日本_23@20
   network: tcp
   port: 25153
   server: zjxc.pmxu.link
@@ -5974,20 +5807,20 @@ proxies:
   type: vmess
   uuid: e33aee02-9ab2-365e-840b-47fe8597c425
 - cipher: aes-256-cfb
-  name: 🇯🇵_JP_日本_24@21
+  name: 🇯🇵_JP_日本_23@21
   password: amazonskr05
   port: 443
   server: 13.115.245.166
   type: ss
 - cipher: aes-256-cfb
-  name: 🇺🇸_US_美国_7_24@22
+  name: 🇺🇸_US_美国_7_23@22
   password: amazonskr05
   port: 443
   server: 35.91.109.62
   type: ss
 - alterId: 64
   cipher: auto
-  name: 🇨🇳_CN_中国->🇺🇸_US_美国_24@23
+  name: 🇨🇳_CN_中国->🇺🇸_US_美国_23@23
   network: tcp
   port: 59902
   server: 183.232.249.189
@@ -5997,7 +5830,7 @@ proxies:
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - alterId: 0
   cipher: auto
-  name: 🇺🇸_US_美国->🇭🇰_HK_香港_24@24
+  name: 🇺🇸_US_美国->🇭🇰_HK_香港_23@24
   network: ws
   port: 8080
   server: hk1.mianfenyun012.eu.org
@@ -6010,14 +5843,14 @@ proxies:
       host: hk1.mianfenyun012.eu.org
     path: /dhjks
 - cipher: chacha20-ietf-poly1305
-  name: 🇨🇳_CN_中国->🇸🇬_SG_新加坡_3_24@25
+  name: 🇨🇳_CN_中国->🇸🇬_SG_新加坡_3_23@25
   password: 98b6ab91-ff1b-476b-a810-575f1dd583f7
   port: 54087
   server: free.node.kk-proxy.pro
   type: ss
 - alterId: 0
   cipher: auto
-  name: 🇺🇸_US_美国_9_24@27
+  name: 🇺🇸_US_美国_9_23@27
   network: ws
   port: 2095
   server: 17.wyhkaa0.gq
@@ -6031,7 +5864,7 @@ proxies:
     path: /TG:@hkaa0
 - alterId: 0
   cipher: auto
-  name: 🇺🇸_US_美国_10_24@31
+  name: 🇺🇸_US_美国_10_23@31
   network: ws
   port: 80
   server: 172.64.130.176
@@ -6045,7 +5878,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 🇨🇳_CN_中国_24@32
+  name: 🇨🇳_CN_中国_23@32
   network: ws
   port: 80
   server: 36.150.27.31
@@ -6583,39 +6416,24 @@ proxy-groups:
   - 🇺🇸_US_美国_13_22@27
   - 🇸🇬_SG_新加坡_2_22@28
   - 🇭🇰_HK_香港->🇺🇸_US_美国_3_22@32
-  - 🇺🇸_US_美国_4_23@3
-  - 🇺🇸_US_美国_5_23@4
-  - 🇺🇸_US_美国_6_23@5
-  - 🇺🇸_US_美国_7_23@6
-  - 🇫🇷_FR_法国_23@7
-  - 🇨🇳_CN_中国->🇹🇼_TW_台湾_23@8
-  - 🇸🇬_SG_新加坡_1_23@9
-  - 🇺🇸_US_美国_8_23@13
-  - 🇺🇸_US_美国_10_23@16
-  - 🇸🇬_SG_新加坡_2_23@20
-  - 🇹🇼_TW_台湾_23@23
-  - 🇺🇸_US_美国_14_23@25
-  - 🇸🇬_SG_新加坡_3_23@26
-  - 🇩🇪_DE_德国_23@27
-  - 🇺🇸_US_美国_16_23@29
-  - 🇨🇳_CN_中国->🇸🇬_SG_新加坡_1_24@1
-  - 🇨🇳_CN_中国->🇸🇬_SG_新加坡_2_24@2
-  - 🇨🇳_CN_中国->🇹🇼_TW_台湾_24@4
-  - 🇨🇳_CN_中国->🇭🇰_HK_香港_24@5
-  - 🇰🇷_KR_韩国_24@7
-  - 🇺🇸_US_美国_2_24@9
-  - 🇺🇸_US_美国_3_24@11
-  - 🇨🇦_CA_加拿大_1_24@12
-  - 🇺🇸_US_美国->🇷🇺_RU_俄罗斯联邦_24@16
-  - 🇨🇳_CN_中国->🇯🇵_JP_日本_24@20
-  - 🇯🇵_JP_日本_24@21
-  - 🇺🇸_US_美国_7_24@22
-  - 🇨🇳_CN_中国->🇺🇸_US_美国_24@23
-  - 🇺🇸_US_美国->🇭🇰_HK_香港_24@24
-  - 🇨🇳_CN_中国->🇸🇬_SG_新加坡_3_24@25
-  - 🇺🇸_US_美国_9_24@27
-  - 🇺🇸_US_美国_10_24@31
-  - 🇨🇳_CN_中国_24@32
+  - 🇨🇳_CN_中国->🇸🇬_SG_新加坡_1_23@1
+  - 🇨🇳_CN_中国->🇸🇬_SG_新加坡_2_23@2
+  - 🇨🇳_CN_中国->🇹🇼_TW_台湾_23@4
+  - 🇨🇳_CN_中国->🇭🇰_HK_香港_23@5
+  - 🇰🇷_KR_韩国_23@7
+  - 🇺🇸_US_美国_2_23@9
+  - 🇺🇸_US_美国_3_23@11
+  - 🇨🇦_CA_加拿大_1_23@12
+  - 🇺🇸_US_美国->🇷🇺_RU_俄罗斯联邦_23@16
+  - 🇨🇳_CN_中国->🇯🇵_JP_日本_23@20
+  - 🇯🇵_JP_日本_23@21
+  - 🇺🇸_US_美国_7_23@22
+  - 🇨🇳_CN_中国->🇺🇸_US_美国_23@23
+  - 🇺🇸_US_美国->🇭🇰_HK_香港_23@24
+  - 🇨🇳_CN_中国->🇸🇬_SG_新加坡_3_23@25
+  - 🇺🇸_US_美国_9_23@27
+  - 🇺🇸_US_美国_10_23@31
+  - 🇨🇳_CN_中国_23@32
   type: select
 - interval: 300
   name: ♻️ 自动选择
@@ -7143,39 +6961,24 @@ proxy-groups:
   - 🇺🇸_US_美国_13_22@27
   - 🇸🇬_SG_新加坡_2_22@28
   - 🇭🇰_HK_香港->🇺🇸_US_美国_3_22@32
-  - 🇺🇸_US_美国_4_23@3
-  - 🇺🇸_US_美国_5_23@4
-  - 🇺🇸_US_美国_6_23@5
-  - 🇺🇸_US_美国_7_23@6
-  - 🇫🇷_FR_法国_23@7
-  - 🇨🇳_CN_中国->🇹🇼_TW_台湾_23@8
-  - 🇸🇬_SG_新加坡_1_23@9
-  - 🇺🇸_US_美国_8_23@13
-  - 🇺🇸_US_美国_10_23@16
-  - 🇸🇬_SG_新加坡_2_23@20
-  - 🇹🇼_TW_台湾_23@23
-  - 🇺🇸_US_美国_14_23@25
-  - 🇸🇬_SG_新加坡_3_23@26
-  - 🇩🇪_DE_德国_23@27
-  - 🇺🇸_US_美国_16_23@29
-  - 🇨🇳_CN_中国->🇸🇬_SG_新加坡_1_24@1
-  - 🇨🇳_CN_中国->🇸🇬_SG_新加坡_2_24@2
-  - 🇨🇳_CN_中国->🇹🇼_TW_台湾_24@4
-  - 🇨🇳_CN_中国->🇭🇰_HK_香港_24@5
-  - 🇰🇷_KR_韩国_24@7
-  - 🇺🇸_US_美国_2_24@9
-  - 🇺🇸_US_美国_3_24@11
-  - 🇨🇦_CA_加拿大_1_24@12
-  - 🇺🇸_US_美国->🇷🇺_RU_俄罗斯联邦_24@16
-  - 🇨🇳_CN_中国->🇯🇵_JP_日本_24@20
-  - 🇯🇵_JP_日本_24@21
-  - 🇺🇸_US_美国_7_24@22
-  - 🇨🇳_CN_中国->🇺🇸_US_美国_24@23
-  - 🇺🇸_US_美国->🇭🇰_HK_香港_24@24
-  - 🇨🇳_CN_中国->🇸🇬_SG_新加坡_3_24@25
-  - 🇺🇸_US_美国_9_24@27
-  - 🇺🇸_US_美国_10_24@31
-  - 🇨🇳_CN_中国_24@32
+  - 🇨🇳_CN_中国->🇸🇬_SG_新加坡_1_23@1
+  - 🇨🇳_CN_中国->🇸🇬_SG_新加坡_2_23@2
+  - 🇨🇳_CN_中国->🇹🇼_TW_台湾_23@4
+  - 🇨🇳_CN_中国->🇭🇰_HK_香港_23@5
+  - 🇰🇷_KR_韩国_23@7
+  - 🇺🇸_US_美国_2_23@9
+  - 🇺🇸_US_美国_3_23@11
+  - 🇨🇦_CA_加拿大_1_23@12
+  - 🇺🇸_US_美国->🇷🇺_RU_俄罗斯联邦_23@16
+  - 🇨🇳_CN_中国->🇯🇵_JP_日本_23@20
+  - 🇯🇵_JP_日本_23@21
+  - 🇺🇸_US_美国_7_23@22
+  - 🇨🇳_CN_中国->🇺🇸_US_美国_23@23
+  - 🇺🇸_US_美国->🇭🇰_HK_香港_23@24
+  - 🇨🇳_CN_中国->🇸🇬_SG_新加坡_3_23@25
+  - 🇺🇸_US_美国_9_23@27
+  - 🇺🇸_US_美国_10_23@31
+  - 🇨🇳_CN_中国_23@32
   tolerance: 50
   type: url-test
   url: http://www.gstatic.com/generate_204
@@ -7707,39 +7510,24 @@ proxy-groups:
   - 🇺🇸_US_美国_13_22@27
   - 🇸🇬_SG_新加坡_2_22@28
   - 🇭🇰_HK_香港->🇺🇸_US_美国_3_22@32
-  - 🇺🇸_US_美国_4_23@3
-  - 🇺🇸_US_美国_5_23@4
-  - 🇺🇸_US_美国_6_23@5
-  - 🇺🇸_US_美国_7_23@6
-  - 🇫🇷_FR_法国_23@7
-  - 🇨🇳_CN_中国->🇹🇼_TW_台湾_23@8
-  - 🇸🇬_SG_新加坡_1_23@9
-  - 🇺🇸_US_美国_8_23@13
-  - 🇺🇸_US_美国_10_23@16
-  - 🇸🇬_SG_新加坡_2_23@20
-  - 🇹🇼_TW_台湾_23@23
-  - 🇺🇸_US_美国_14_23@25
-  - 🇸🇬_SG_新加坡_3_23@26
-  - 🇩🇪_DE_德国_23@27
-  - 🇺🇸_US_美国_16_23@29
-  - 🇨🇳_CN_中国->🇸🇬_SG_新加坡_1_24@1
-  - 🇨🇳_CN_中国->🇸🇬_SG_新加坡_2_24@2
-  - 🇨🇳_CN_中国->🇹🇼_TW_台湾_24@4
-  - 🇨🇳_CN_中国->🇭🇰_HK_香港_24@5
-  - 🇰🇷_KR_韩国_24@7
-  - 🇺🇸_US_美国_2_24@9
-  - 🇺🇸_US_美国_3_24@11
-  - 🇨🇦_CA_加拿大_1_24@12
-  - 🇺🇸_US_美国->🇷🇺_RU_俄罗斯联邦_24@16
-  - 🇨🇳_CN_中国->🇯🇵_JP_日本_24@20
-  - 🇯🇵_JP_日本_24@21
-  - 🇺🇸_US_美国_7_24@22
-  - 🇨🇳_CN_中国->🇺🇸_US_美国_24@23
-  - 🇺🇸_US_美国->🇭🇰_HK_香港_24@24
-  - 🇨🇳_CN_中国->🇸🇬_SG_新加坡_3_24@25
-  - 🇺🇸_US_美国_9_24@27
-  - 🇺🇸_US_美国_10_24@31
-  - 🇨🇳_CN_中国_24@32
+  - 🇨🇳_CN_中国->🇸🇬_SG_新加坡_1_23@1
+  - 🇨🇳_CN_中国->🇸🇬_SG_新加坡_2_23@2
+  - 🇨🇳_CN_中国->🇹🇼_TW_台湾_23@4
+  - 🇨🇳_CN_中国->🇭🇰_HK_香港_23@5
+  - 🇰🇷_KR_韩国_23@7
+  - 🇺🇸_US_美国_2_23@9
+  - 🇺🇸_US_美国_3_23@11
+  - 🇨🇦_CA_加拿大_1_23@12
+  - 🇺🇸_US_美国->🇷🇺_RU_俄罗斯联邦_23@16
+  - 🇨🇳_CN_中国->🇯🇵_JP_日本_23@20
+  - 🇯🇵_JP_日本_23@21
+  - 🇺🇸_US_美国_7_23@22
+  - 🇨🇳_CN_中国->🇺🇸_US_美国_23@23
+  - 🇺🇸_US_美国->🇭🇰_HK_香港_23@24
+  - 🇨🇳_CN_中国->🇸🇬_SG_新加坡_3_23@25
+  - 🇺🇸_US_美国_9_23@27
+  - 🇺🇸_US_美国_10_23@31
+  - 🇨🇳_CN_中国_23@32
   type: select
 - name: 📲 电报信息
   proxies:
@@ -8268,39 +8056,24 @@ proxy-groups:
   - 🇺🇸_US_美国_13_22@27
   - 🇸🇬_SG_新加坡_2_22@28
   - 🇭🇰_HK_香港->🇺🇸_US_美国_3_22@32
-  - 🇺🇸_US_美国_4_23@3
-  - 🇺🇸_US_美国_5_23@4
-  - 🇺🇸_US_美国_6_23@5
-  - 🇺🇸_US_美国_7_23@6
-  - 🇫🇷_FR_法国_23@7
-  - 🇨🇳_CN_中国->🇹🇼_TW_台湾_23@8
-  - 🇸🇬_SG_新加坡_1_23@9
-  - 🇺🇸_US_美国_8_23@13
-  - 🇺🇸_US_美国_10_23@16
-  - 🇸🇬_SG_新加坡_2_23@20
-  - 🇹🇼_TW_台湾_23@23
-  - 🇺🇸_US_美国_14_23@25
-  - 🇸🇬_SG_新加坡_3_23@26
-  - 🇩🇪_DE_德国_23@27
-  - 🇺🇸_US_美国_16_23@29
-  - 🇨🇳_CN_中国->🇸🇬_SG_新加坡_1_24@1
-  - 🇨🇳_CN_中国->🇸🇬_SG_新加坡_2_24@2
-  - 🇨🇳_CN_中国->🇹🇼_TW_台湾_24@4
-  - 🇨🇳_CN_中国->🇭🇰_HK_香港_24@5
-  - 🇰🇷_KR_韩国_24@7
-  - 🇺🇸_US_美国_2_24@9
-  - 🇺🇸_US_美国_3_24@11
-  - 🇨🇦_CA_加拿大_1_24@12
-  - 🇺🇸_US_美国->🇷🇺_RU_俄罗斯联邦_24@16
-  - 🇨🇳_CN_中国->🇯🇵_JP_日本_24@20
-  - 🇯🇵_JP_日本_24@21
-  - 🇺🇸_US_美国_7_24@22
-  - 🇨🇳_CN_中国->🇺🇸_US_美国_24@23
-  - 🇺🇸_US_美国->🇭🇰_HK_香港_24@24
-  - 🇨🇳_CN_中国->🇸🇬_SG_新加坡_3_24@25
-  - 🇺🇸_US_美国_9_24@27
-  - 🇺🇸_US_美国_10_24@31
-  - 🇨🇳_CN_中国_24@32
+  - 🇨🇳_CN_中国->🇸🇬_SG_新加坡_1_23@1
+  - 🇨🇳_CN_中国->🇸🇬_SG_新加坡_2_23@2
+  - 🇨🇳_CN_中国->🇹🇼_TW_台湾_23@4
+  - 🇨🇳_CN_中国->🇭🇰_HK_香港_23@5
+  - 🇰🇷_KR_韩国_23@7
+  - 🇺🇸_US_美国_2_23@9
+  - 🇺🇸_US_美国_3_23@11
+  - 🇨🇦_CA_加拿大_1_23@12
+  - 🇺🇸_US_美国->🇷🇺_RU_俄罗斯联邦_23@16
+  - 🇨🇳_CN_中国->🇯🇵_JP_日本_23@20
+  - 🇯🇵_JP_日本_23@21
+  - 🇺🇸_US_美国_7_23@22
+  - 🇨🇳_CN_中国->🇺🇸_US_美国_23@23
+  - 🇺🇸_US_美国->🇭🇰_HK_香港_23@24
+  - 🇨🇳_CN_中国->🇸🇬_SG_新加坡_3_23@25
+  - 🇺🇸_US_美国_9_23@27
+  - 🇺🇸_US_美国_10_23@31
+  - 🇨🇳_CN_中国_23@32
   type: select
 - name: Ⓜ️ 微软服务
   proxies:
@@ -8829,39 +8602,24 @@ proxy-groups:
   - 🇺🇸_US_美国_13_22@27
   - 🇸🇬_SG_新加坡_2_22@28
   - 🇭🇰_HK_香港->🇺🇸_US_美国_3_22@32
-  - 🇺🇸_US_美国_4_23@3
-  - 🇺🇸_US_美国_5_23@4
-  - 🇺🇸_US_美国_6_23@5
-  - 🇺🇸_US_美国_7_23@6
-  - 🇫🇷_FR_法国_23@7
-  - 🇨🇳_CN_中国->🇹🇼_TW_台湾_23@8
-  - 🇸🇬_SG_新加坡_1_23@9
-  - 🇺🇸_US_美国_8_23@13
-  - 🇺🇸_US_美国_10_23@16
-  - 🇸🇬_SG_新加坡_2_23@20
-  - 🇹🇼_TW_台湾_23@23
-  - 🇺🇸_US_美国_14_23@25
-  - 🇸🇬_SG_新加坡_3_23@26
-  - 🇩🇪_DE_德国_23@27
-  - 🇺🇸_US_美国_16_23@29
-  - 🇨🇳_CN_中国->🇸🇬_SG_新加坡_1_24@1
-  - 🇨🇳_CN_中国->🇸🇬_SG_新加坡_2_24@2
-  - 🇨🇳_CN_中国->🇹🇼_TW_台湾_24@4
-  - 🇨🇳_CN_中国->🇭🇰_HK_香港_24@5
-  - 🇰🇷_KR_韩国_24@7
-  - 🇺🇸_US_美国_2_24@9
-  - 🇺🇸_US_美国_3_24@11
-  - 🇨🇦_CA_加拿大_1_24@12
-  - 🇺🇸_US_美国->🇷🇺_RU_俄罗斯联邦_24@16
-  - 🇨🇳_CN_中国->🇯🇵_JP_日本_24@20
-  - 🇯🇵_JP_日本_24@21
-  - 🇺🇸_US_美国_7_24@22
-  - 🇨🇳_CN_中国->🇺🇸_US_美国_24@23
-  - 🇺🇸_US_美国->🇭🇰_HK_香港_24@24
-  - 🇨🇳_CN_中国->🇸🇬_SG_新加坡_3_24@25
-  - 🇺🇸_US_美国_9_24@27
-  - 🇺🇸_US_美国_10_24@31
-  - 🇨🇳_CN_中国_24@32
+  - 🇨🇳_CN_中国->🇸🇬_SG_新加坡_1_23@1
+  - 🇨🇳_CN_中国->🇸🇬_SG_新加坡_2_23@2
+  - 🇨🇳_CN_中国->🇹🇼_TW_台湾_23@4
+  - 🇨🇳_CN_中国->🇭🇰_HK_香港_23@5
+  - 🇰🇷_KR_韩国_23@7
+  - 🇺🇸_US_美国_2_23@9
+  - 🇺🇸_US_美国_3_23@11
+  - 🇨🇦_CA_加拿大_1_23@12
+  - 🇺🇸_US_美国->🇷🇺_RU_俄罗斯联邦_23@16
+  - 🇨🇳_CN_中国->🇯🇵_JP_日本_23@20
+  - 🇯🇵_JP_日本_23@21
+  - 🇺🇸_US_美国_7_23@22
+  - 🇨🇳_CN_中国->🇺🇸_US_美国_23@23
+  - 🇺🇸_US_美国->🇭🇰_HK_香港_23@24
+  - 🇨🇳_CN_中国->🇸🇬_SG_新加坡_3_23@25
+  - 🇺🇸_US_美国_9_23@27
+  - 🇺🇸_US_美国_10_23@31
+  - 🇨🇳_CN_中国_23@32
   type: select
 - name: 🍎 苹果服务
   proxies:
@@ -9390,39 +9148,24 @@ proxy-groups:
   - 🇺🇸_US_美国_13_22@27
   - 🇸🇬_SG_新加坡_2_22@28
   - 🇭🇰_HK_香港->🇺🇸_US_美国_3_22@32
-  - 🇺🇸_US_美国_4_23@3
-  - 🇺🇸_US_美国_5_23@4
-  - 🇺🇸_US_美国_6_23@5
-  - 🇺🇸_US_美国_7_23@6
-  - 🇫🇷_FR_法国_23@7
-  - 🇨🇳_CN_中国->🇹🇼_TW_台湾_23@8
-  - 🇸🇬_SG_新加坡_1_23@9
-  - 🇺🇸_US_美国_8_23@13
-  - 🇺🇸_US_美国_10_23@16
-  - 🇸🇬_SG_新加坡_2_23@20
-  - 🇹🇼_TW_台湾_23@23
-  - 🇺🇸_US_美国_14_23@25
-  - 🇸🇬_SG_新加坡_3_23@26
-  - 🇩🇪_DE_德国_23@27
-  - 🇺🇸_US_美国_16_23@29
-  - 🇨🇳_CN_中国->🇸🇬_SG_新加坡_1_24@1
-  - 🇨🇳_CN_中国->🇸🇬_SG_新加坡_2_24@2
-  - 🇨🇳_CN_中国->🇹🇼_TW_台湾_24@4
-  - 🇨🇳_CN_中国->🇭🇰_HK_香港_24@5
-  - 🇰🇷_KR_韩国_24@7
-  - 🇺🇸_US_美国_2_24@9
-  - 🇺🇸_US_美国_3_24@11
-  - 🇨🇦_CA_加拿大_1_24@12
-  - 🇺🇸_US_美国->🇷🇺_RU_俄罗斯联邦_24@16
-  - 🇨🇳_CN_中国->🇯🇵_JP_日本_24@20
-  - 🇯🇵_JP_日本_24@21
-  - 🇺🇸_US_美国_7_24@22
-  - 🇨🇳_CN_中国->🇺🇸_US_美国_24@23
-  - 🇺🇸_US_美国->🇭🇰_HK_香港_24@24
-  - 🇨🇳_CN_中国->🇸🇬_SG_新加坡_3_24@25
-  - 🇺🇸_US_美国_9_24@27
-  - 🇺🇸_US_美国_10_24@31
-  - 🇨🇳_CN_中国_24@32
+  - 🇨🇳_CN_中国->🇸🇬_SG_新加坡_1_23@1
+  - 🇨🇳_CN_中国->🇸🇬_SG_新加坡_2_23@2
+  - 🇨🇳_CN_中国->🇹🇼_TW_台湾_23@4
+  - 🇨🇳_CN_中国->🇭🇰_HK_香港_23@5
+  - 🇰🇷_KR_韩国_23@7
+  - 🇺🇸_US_美国_2_23@9
+  - 🇺🇸_US_美国_3_23@11
+  - 🇨🇦_CA_加拿大_1_23@12
+  - 🇺🇸_US_美国->🇷🇺_RU_俄罗斯联邦_23@16
+  - 🇨🇳_CN_中国->🇯🇵_JP_日本_23@20
+  - 🇯🇵_JP_日本_23@21
+  - 🇺🇸_US_美国_7_23@22
+  - 🇨🇳_CN_中国->🇺🇸_US_美国_23@23
+  - 🇺🇸_US_美国->🇭🇰_HK_香港_23@24
+  - 🇨🇳_CN_中国->🇸🇬_SG_新加坡_3_23@25
+  - 🇺🇸_US_美国_9_23@27
+  - 🇺🇸_US_美国_10_23@31
+  - 🇨🇳_CN_中国_23@32
   type: select
 - name: 🎯 全球直连
   proxies:
@@ -9968,39 +9711,24 @@ proxy-groups:
   - 🇺🇸_US_美国_13_22@27
   - 🇸🇬_SG_新加坡_2_22@28
   - 🇭🇰_HK_香港->🇺🇸_US_美国_3_22@32
-  - 🇺🇸_US_美国_4_23@3
-  - 🇺🇸_US_美国_5_23@4
-  - 🇺🇸_US_美国_6_23@5
-  - 🇺🇸_US_美国_7_23@6
-  - 🇫🇷_FR_法国_23@7
-  - 🇨🇳_CN_中国->🇹🇼_TW_台湾_23@8
-  - 🇸🇬_SG_新加坡_1_23@9
-  - 🇺🇸_US_美国_8_23@13
-  - 🇺🇸_US_美国_10_23@16
-  - 🇸🇬_SG_新加坡_2_23@20
-  - 🇹🇼_TW_台湾_23@23
-  - 🇺🇸_US_美国_14_23@25
-  - 🇸🇬_SG_新加坡_3_23@26
-  - 🇩🇪_DE_德国_23@27
-  - 🇺🇸_US_美国_16_23@29
-  - 🇨🇳_CN_中国->🇸🇬_SG_新加坡_1_24@1
-  - 🇨🇳_CN_中国->🇸🇬_SG_新加坡_2_24@2
-  - 🇨🇳_CN_中国->🇹🇼_TW_台湾_24@4
-  - 🇨🇳_CN_中国->🇭🇰_HK_香港_24@5
-  - 🇰🇷_KR_韩国_24@7
-  - 🇺🇸_US_美国_2_24@9
-  - 🇺🇸_US_美国_3_24@11
-  - 🇨🇦_CA_加拿大_1_24@12
-  - 🇺🇸_US_美国->🇷🇺_RU_俄罗斯联邦_24@16
-  - 🇨🇳_CN_中国->🇯🇵_JP_日本_24@20
-  - 🇯🇵_JP_日本_24@21
-  - 🇺🇸_US_美国_7_24@22
-  - 🇨🇳_CN_中国->🇺🇸_US_美国_24@23
-  - 🇺🇸_US_美国->🇭🇰_HK_香港_24@24
-  - 🇨🇳_CN_中国->🇸🇬_SG_新加坡_3_24@25
-  - 🇺🇸_US_美国_9_24@27
-  - 🇺🇸_US_美国_10_24@31
-  - 🇨🇳_CN_中国_24@32
+  - 🇨🇳_CN_中国->🇸🇬_SG_新加坡_1_23@1
+  - 🇨🇳_CN_中国->🇸🇬_SG_新加坡_2_23@2
+  - 🇨🇳_CN_中国->🇹🇼_TW_台湾_23@4
+  - 🇨🇳_CN_中国->🇭🇰_HK_香港_23@5
+  - 🇰🇷_KR_韩国_23@7
+  - 🇺🇸_US_美国_2_23@9
+  - 🇺🇸_US_美国_3_23@11
+  - 🇨🇦_CA_加拿大_1_23@12
+  - 🇺🇸_US_美国->🇷🇺_RU_俄罗斯联邦_23@16
+  - 🇨🇳_CN_中国->🇯🇵_JP_日本_23@20
+  - 🇯🇵_JP_日本_23@21
+  - 🇺🇸_US_美国_7_23@22
+  - 🇨🇳_CN_中国->🇺🇸_US_美国_23@23
+  - 🇺🇸_US_美国->🇭🇰_HK_香港_23@24
+  - 🇨🇳_CN_中国->🇸🇬_SG_新加坡_3_23@25
+  - 🇺🇸_US_美国_9_23@27
+  - 🇺🇸_US_美国_10_23@31
+  - 🇨🇳_CN_中国_23@32
   type: select
 rules:
 - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
