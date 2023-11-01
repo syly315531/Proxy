@@ -3356,117 +3356,6 @@ proxies:
   port: 443
   server: 195.181.166.170
   type: ss
-- alterId: 0
-  cipher: auto
-  name: 🇺🇸_US_美国_3_24@3
-  network: http
-  port: 2083
-  server: 5.161.191.195
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 1c5cd450-a5cc-4803-d0ef-1ea424cc4ba2
-- alterId: 0
-  cipher: auto
-  name: 🇺🇸_US_美国_5_24@5
-  network: ws
-  port: 443
-  server: lax.asoul-diana.xyz
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: 5f726fe3-d82e-4da5-a711-8af0cbb2b682
-  ws-opts:
-    headers:
-      host: lax.asoul-diana.xyz
-    path: /acetaffy
-- name: 🇨🇳_CN_中国->🇺🇸_US_美国_1_24@6
-  network: tcp
-  password: 09833a6f-4d46-426e-87fe-7793a5489f84
-  port: 41929
-  server: 14.18.106.137
-  skip-cert-verify: true
-  sni: nl01.lovehjq.xyz
-  type: trojan
-  udp: true
-- alterId: 0
-  cipher: auto
-  name: 🇨🇳_CN_中国->🇺🇸_US_美国_2_24@8
-  network: ws
-  port: 61001
-  server: 112.29.156.248
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: d531ebd3-64d7-3ccb-b49e-e2bfbdf70dfc
-  ws-opts:
-    headers:
-      host: a.cn-db.top
-    path: /dabai.in
-- alterId: 0
-  cipher: auto
-  name: 🇨🇳_CN_中国->🇭🇰_HK_香港_24@11
-  network: ws
-  port: 61004
-  server: 112.29.156.251
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: d531ebd3-64d7-3ccb-b49e-e2bfbdf70dfc
-  ws-opts:
-    headers:
-      host: a.db-link.in
-    path: /dabai.in
-- cipher: chacha20-ietf-poly1305
-  name: 🇬🇧_GB_英国_24@13
-  password: iGZdlsmpNxy4QCGu2CJCKw
-  port: 46135
-  server: 89.185.84.178
-  type: ss
-- alterId: 0
-  cipher: auto
-  name: 🇨🇿_CZ_捷克_24@14
-  network: tcp
-  port: 25131
-  server: 92.118.149.115
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: ece8262a-141f-42f6-8dcf-e9b7a2028086
-- alterId: 0
-  cipher: auto
-  name: 🇺🇸_US_美国_7_24@15
-  network: ws
-  port: 80
-  server: 162.159.143.72
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: fab552f9-3c92-44ed-c086-08d631ee44ee
-  ws-opts:
-    headers:
-      host: xui2.xuwu996.eu.org
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 🇺🇸_US_美国_8_24@16
-  network: ws
-  port: 80
-  server: singapore.com
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: bffa23aa-ae0a-4c02-af77-2a14c8c0b81c
-  ws-opts:
-    headers:
-      host: ssrsub.v002.ssrsub.com
-    path: /api/v3/download.getFile
-- cipher: chacha20-ietf-poly1305
-  name: 🇺🇸_US_美国_10_24@18
-  password: f5d95005-be14-40fc-bedc-e4a1133a5701
-  port: 20800
-  server: 155.248.198.71
-  type: ss
 proxy-groups:
 - name: 🚀 节点选择
   proxies:
@@ -3799,16 +3688,6 @@ proxy-groups:
   - 🇺🇸_US_美国_5_23@14
   - 🇬🇧_GB_英国_2_23@15
   - 🇸🇪_SE_瑞典_23@16
-  - 🇺🇸_US_美国_3_24@3
-  - 🇺🇸_US_美国_5_24@5
-  - 🇨🇳_CN_中国->🇺🇸_US_美国_1_24@6
-  - 🇨🇳_CN_中国->🇺🇸_US_美国_2_24@8
-  - 🇨🇳_CN_中国->🇭🇰_HK_香港_24@11
-  - 🇬🇧_GB_英国_24@13
-  - 🇨🇿_CZ_捷克_24@14
-  - 🇺🇸_US_美国_7_24@15
-  - 🇺🇸_US_美国_8_24@16
-  - 🇺🇸_US_美国_10_24@18
   type: select
 - interval: 300
   name: ♻️ 自动选择
@@ -4140,16 +4019,6 @@ proxy-groups:
   - 🇺🇸_US_美国_5_23@14
   - 🇬🇧_GB_英国_2_23@15
   - 🇸🇪_SE_瑞典_23@16
-  - 🇺🇸_US_美国_3_24@3
-  - 🇺🇸_US_美国_5_24@5
-  - 🇨🇳_CN_中国->🇺🇸_US_美国_1_24@6
-  - 🇨🇳_CN_中国->🇺🇸_US_美国_2_24@8
-  - 🇨🇳_CN_中国->🇭🇰_HK_香港_24@11
-  - 🇬🇧_GB_英国_24@13
-  - 🇨🇿_CZ_捷克_24@14
-  - 🇺🇸_US_美国_7_24@15
-  - 🇺🇸_US_美国_8_24@16
-  - 🇺🇸_US_美国_10_24@18
   tolerance: 50
   type: url-test
   url: http://www.gstatic.com/generate_204
@@ -4485,16 +4354,6 @@ proxy-groups:
   - 🇺🇸_US_美国_5_23@14
   - 🇬🇧_GB_英国_2_23@15
   - 🇸🇪_SE_瑞典_23@16
-  - 🇺🇸_US_美国_3_24@3
-  - 🇺🇸_US_美国_5_24@5
-  - 🇨🇳_CN_中国->🇺🇸_US_美国_1_24@6
-  - 🇨🇳_CN_中国->🇺🇸_US_美国_2_24@8
-  - 🇨🇳_CN_中国->🇭🇰_HK_香港_24@11
-  - 🇬🇧_GB_英国_24@13
-  - 🇨🇿_CZ_捷克_24@14
-  - 🇺🇸_US_美国_7_24@15
-  - 🇺🇸_US_美国_8_24@16
-  - 🇺🇸_US_美国_10_24@18
   type: select
 - name: 📲 电报信息
   proxies:
@@ -4827,16 +4686,6 @@ proxy-groups:
   - 🇺🇸_US_美国_5_23@14
   - 🇬🇧_GB_英国_2_23@15
   - 🇸🇪_SE_瑞典_23@16
-  - 🇺🇸_US_美国_3_24@3
-  - 🇺🇸_US_美国_5_24@5
-  - 🇨🇳_CN_中国->🇺🇸_US_美国_1_24@6
-  - 🇨🇳_CN_中国->🇺🇸_US_美国_2_24@8
-  - 🇨🇳_CN_中国->🇭🇰_HK_香港_24@11
-  - 🇬🇧_GB_英国_24@13
-  - 🇨🇿_CZ_捷克_24@14
-  - 🇺🇸_US_美国_7_24@15
-  - 🇺🇸_US_美国_8_24@16
-  - 🇺🇸_US_美国_10_24@18
   type: select
 - name: Ⓜ️ 微软服务
   proxies:
@@ -5169,16 +5018,6 @@ proxy-groups:
   - 🇺🇸_US_美国_5_23@14
   - 🇬🇧_GB_英国_2_23@15
   - 🇸🇪_SE_瑞典_23@16
-  - 🇺🇸_US_美国_3_24@3
-  - 🇺🇸_US_美国_5_24@5
-  - 🇨🇳_CN_中国->🇺🇸_US_美国_1_24@6
-  - 🇨🇳_CN_中国->🇺🇸_US_美国_2_24@8
-  - 🇨🇳_CN_中国->🇭🇰_HK_香港_24@11
-  - 🇬🇧_GB_英国_24@13
-  - 🇨🇿_CZ_捷克_24@14
-  - 🇺🇸_US_美国_7_24@15
-  - 🇺🇸_US_美国_8_24@16
-  - 🇺🇸_US_美国_10_24@18
   type: select
 - name: 🍎 苹果服务
   proxies:
@@ -5511,16 +5350,6 @@ proxy-groups:
   - 🇺🇸_US_美国_5_23@14
   - 🇬🇧_GB_英国_2_23@15
   - 🇸🇪_SE_瑞典_23@16
-  - 🇺🇸_US_美国_3_24@3
-  - 🇺🇸_US_美国_5_24@5
-  - 🇨🇳_CN_中国->🇺🇸_US_美国_1_24@6
-  - 🇨🇳_CN_中国->🇺🇸_US_美国_2_24@8
-  - 🇨🇳_CN_中国->🇭🇰_HK_香港_24@11
-  - 🇬🇧_GB_英国_24@13
-  - 🇨🇿_CZ_捷克_24@14
-  - 🇺🇸_US_美国_7_24@15
-  - 🇺🇸_US_美国_8_24@16
-  - 🇺🇸_US_美国_10_24@18
   type: select
 - name: 🎯 全球直连
   proxies:
@@ -5870,16 +5699,6 @@ proxy-groups:
   - 🇺🇸_US_美国_5_23@14
   - 🇬🇧_GB_英国_2_23@15
   - 🇸🇪_SE_瑞典_23@16
-  - 🇺🇸_US_美国_3_24@3
-  - 🇺🇸_US_美国_5_24@5
-  - 🇨🇳_CN_中国->🇺🇸_US_美国_1_24@6
-  - 🇨🇳_CN_中国->🇺🇸_US_美国_2_24@8
-  - 🇨🇳_CN_中国->🇭🇰_HK_香港_24@11
-  - 🇬🇧_GB_英国_24@13
-  - 🇨🇿_CZ_捷克_24@14
-  - 🇺🇸_US_美国_7_24@15
-  - 🇺🇸_US_美国_8_24@16
-  - 🇺🇸_US_美国_10_24@18
   type: select
 rules:
 - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
