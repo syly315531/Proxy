@@ -3252,110 +3252,6 @@ proxies:
     headers:
       host: sdyg2.shabijichang.com
     path: /
-- alterId: 0
-  cipher: auto
-  name: 🇺🇸_US_美国->🇩🇪_DE_德国_1_23@0
-  network: ws
-  port: 8880
-  server: dx1.992688.xyz
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 2fc248d5-7c81-471d-c2cf-a14e7f5aed2d
-  ws-opts:
-    headers:
-      host: vceu3.vpn66.eu.org
-    path: /?ed=2048
-- alterId: 0
-  cipher: auto
-  name: 🇺🇸_US_美国->🇦🇺_AU_澳大利亚_23@1
-  network: ws
-  port: 80
-  server: fd.shabijichang.com
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 5e48a497-f4ae-4129-afd6-ba26d75b792a
-  ws-opts:
-    headers:
-      host: mrb.shabijichang.com
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 🇺🇸_US_美国->🇩🇪_DE_德国_2_23@3
-  network: ws
-  port: 8880
-  server: yd1.992688.xyz
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 2fc248d5-7c81-471d-c2cf-a14e7f5aed2d
-  ws-opts:
-    headers:
-      host: vceu3.vpn66.eu.org
-    path: /?ed=2048
-- alterId: 0
-  cipher: auto
-  name: 🇭🇰_HK_香港->🇮🇱_IL_以色列_23@4
-  network: ws
-  port: 57754
-  server: 103.48.169.166
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: a783230b-cd66-4492-9517-7f6cf569e1c9
-  ws-opts:
-    headers:
-      host: ylsl.kxking.eu.org
-    path: /vm?ed=2048
-- alterId: 0
-  cipher: auto
-  name: 🇺🇸_US_美国->🇩🇪_DE_德国_3_23@6
-  network: ws
-  port: 8880
-  server: lt1.992688.xyz
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 2fc248d5-7c81-471d-c2cf-a14e7f5aed2d
-  ws-opts:
-    headers:
-      host: vceu3.vpn66.eu.org
-    path: /?ed=2048
-- name: 🇩🇪_DE_德国_23@7
-  network: tcp
-  password: 1970a7f0-64c0-11ee-8afe-1239d0255272
-  port: 443
-  server: 54.38.156.210
-  skip-cert-verify: true
-  type: trojan
-  udp: true
-- alterId: 0
-  cipher: auto
-  name: 🇺🇸_US_美国_5_23@14
-  network: ws
-  port: 443
-  server: cold-dawn-9246.fly.dev
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: ea4909ef-7ca6-4b46-bf2e-6c07896ef338
-  ws-opts:
-    headers:
-      host: cold-dawn-9246.fly.dev
-    path: /ea4909ef-7ca6-4b46-bf2e-6c07896ef338-vm
-- cipher: chacha20-ietf-poly1305
-  name: 🇬🇧_GB_英国_2_23@15
-  password: f5d95005-be14-40fc-bedc-e4a1133a5701
-  port: 20600
-  server: ukld2.gophers.gay
-  type: ss
-- cipher: aes-256-cfb
-  name: 🇸🇪_SE_瑞典_23@16
-  password: asdKkaskJKfnsa
-  port: 443
-  server: 195.181.166.170
-  type: ss
 proxy-groups:
 - name: 🚀 节点选择
   proxies:
@@ -3679,15 +3575,6 @@ proxy-groups:
   - 🇧🇬_BG_保加利亚_22@30
   - 🇺🇸_US_美国_3_22@31
   - 🇺🇸_US_美国_4_22@32
-  - 🇺🇸_US_美国->🇩🇪_DE_德国_1_23@0
-  - 🇺🇸_US_美国->🇦🇺_AU_澳大利亚_23@1
-  - 🇺🇸_US_美国->🇩🇪_DE_德国_2_23@3
-  - 🇭🇰_HK_香港->🇮🇱_IL_以色列_23@4
-  - 🇺🇸_US_美国->🇩🇪_DE_德国_3_23@6
-  - 🇩🇪_DE_德国_23@7
-  - 🇺🇸_US_美国_5_23@14
-  - 🇬🇧_GB_英国_2_23@15
-  - 🇸🇪_SE_瑞典_23@16
   type: select
 - interval: 300
   name: ♻️ 自动选择
@@ -4010,15 +3897,6 @@ proxy-groups:
   - 🇧🇬_BG_保加利亚_22@30
   - 🇺🇸_US_美国_3_22@31
   - 🇺🇸_US_美国_4_22@32
-  - 🇺🇸_US_美国->🇩🇪_DE_德国_1_23@0
-  - 🇺🇸_US_美国->🇦🇺_AU_澳大利亚_23@1
-  - 🇺🇸_US_美国->🇩🇪_DE_德国_2_23@3
-  - 🇭🇰_HK_香港->🇮🇱_IL_以色列_23@4
-  - 🇺🇸_US_美国->🇩🇪_DE_德国_3_23@6
-  - 🇩🇪_DE_德国_23@7
-  - 🇺🇸_US_美国_5_23@14
-  - 🇬🇧_GB_英国_2_23@15
-  - 🇸🇪_SE_瑞典_23@16
   tolerance: 50
   type: url-test
   url: http://www.gstatic.com/generate_204
@@ -4345,15 +4223,6 @@ proxy-groups:
   - 🇧🇬_BG_保加利亚_22@30
   - 🇺🇸_US_美国_3_22@31
   - 🇺🇸_US_美国_4_22@32
-  - 🇺🇸_US_美国->🇩🇪_DE_德国_1_23@0
-  - 🇺🇸_US_美国->🇦🇺_AU_澳大利亚_23@1
-  - 🇺🇸_US_美国->🇩🇪_DE_德国_2_23@3
-  - 🇭🇰_HK_香港->🇮🇱_IL_以色列_23@4
-  - 🇺🇸_US_美国->🇩🇪_DE_德国_3_23@6
-  - 🇩🇪_DE_德国_23@7
-  - 🇺🇸_US_美国_5_23@14
-  - 🇬🇧_GB_英国_2_23@15
-  - 🇸🇪_SE_瑞典_23@16
   type: select
 - name: 📲 电报信息
   proxies:
@@ -4677,15 +4546,6 @@ proxy-groups:
   - 🇧🇬_BG_保加利亚_22@30
   - 🇺🇸_US_美国_3_22@31
   - 🇺🇸_US_美国_4_22@32
-  - 🇺🇸_US_美国->🇩🇪_DE_德国_1_23@0
-  - 🇺🇸_US_美国->🇦🇺_AU_澳大利亚_23@1
-  - 🇺🇸_US_美国->🇩🇪_DE_德国_2_23@3
-  - 🇭🇰_HK_香港->🇮🇱_IL_以色列_23@4
-  - 🇺🇸_US_美国->🇩🇪_DE_德国_3_23@6
-  - 🇩🇪_DE_德国_23@7
-  - 🇺🇸_US_美国_5_23@14
-  - 🇬🇧_GB_英国_2_23@15
-  - 🇸🇪_SE_瑞典_23@16
   type: select
 - name: Ⓜ️ 微软服务
   proxies:
@@ -5009,15 +4869,6 @@ proxy-groups:
   - 🇧🇬_BG_保加利亚_22@30
   - 🇺🇸_US_美国_3_22@31
   - 🇺🇸_US_美国_4_22@32
-  - 🇺🇸_US_美国->🇩🇪_DE_德国_1_23@0
-  - 🇺🇸_US_美国->🇦🇺_AU_澳大利亚_23@1
-  - 🇺🇸_US_美国->🇩🇪_DE_德国_2_23@3
-  - 🇭🇰_HK_香港->🇮🇱_IL_以色列_23@4
-  - 🇺🇸_US_美国->🇩🇪_DE_德国_3_23@6
-  - 🇩🇪_DE_德国_23@7
-  - 🇺🇸_US_美国_5_23@14
-  - 🇬🇧_GB_英国_2_23@15
-  - 🇸🇪_SE_瑞典_23@16
   type: select
 - name: 🍎 苹果服务
   proxies:
@@ -5341,15 +5192,6 @@ proxy-groups:
   - 🇧🇬_BG_保加利亚_22@30
   - 🇺🇸_US_美国_3_22@31
   - 🇺🇸_US_美国_4_22@32
-  - 🇺🇸_US_美国->🇩🇪_DE_德国_1_23@0
-  - 🇺🇸_US_美国->🇦🇺_AU_澳大利亚_23@1
-  - 🇺🇸_US_美国->🇩🇪_DE_德国_2_23@3
-  - 🇭🇰_HK_香港->🇮🇱_IL_以色列_23@4
-  - 🇺🇸_US_美国->🇩🇪_DE_德国_3_23@6
-  - 🇩🇪_DE_德国_23@7
-  - 🇺🇸_US_美国_5_23@14
-  - 🇬🇧_GB_英国_2_23@15
-  - 🇸🇪_SE_瑞典_23@16
   type: select
 - name: 🎯 全球直连
   proxies:
@@ -5690,15 +5532,6 @@ proxy-groups:
   - 🇧🇬_BG_保加利亚_22@30
   - 🇺🇸_US_美国_3_22@31
   - 🇺🇸_US_美国_4_22@32
-  - 🇺🇸_US_美国->🇩🇪_DE_德国_1_23@0
-  - 🇺🇸_US_美国->🇦🇺_AU_澳大利亚_23@1
-  - 🇺🇸_US_美国->🇩🇪_DE_德国_2_23@3
-  - 🇭🇰_HK_香港->🇮🇱_IL_以色列_23@4
-  - 🇺🇸_US_美国->🇩🇪_DE_德国_3_23@6
-  - 🇩🇪_DE_德国_23@7
-  - 🇺🇸_US_美国_5_23@14
-  - 🇬🇧_GB_英国_2_23@15
-  - 🇸🇪_SE_瑞典_23@16
   type: select
 rules:
 - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
