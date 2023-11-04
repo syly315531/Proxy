@@ -2951,113 +2951,6 @@ proxies:
   port: 27127
   server: foshan.chiguayun.cc
   type: ss
-- alterId: 64
-  cipher: auto
-  name: 🇺🇸_US_美国->🇳🇱_NL_荷兰_21@1
-  network: ws
-  port: 30000
-  server: 45.199.138.152
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca4690dd24
-  ws-opts:
-    headers:
-      host: www.32522178.xyz
-    path: /path/1696598013851
-- alterId: 0
-  cipher: auto
-  name: 🇺🇸_US_美国_2_21@2
-  network: ws
-  port: 2052
-  server: iran02.biqibao.site
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 9410cc20-c35d-45ed-b3ad-db18716dec30
-  ws-opts:
-    headers:
-      host: de4.biqibao.site
-    path: /public
-- cipher: chacha20-ietf-poly1305
-  name: 🇺🇸_US_美国_3_21@3
-  password: f5d95005-be14-40fc-bedc-e4a1133a5701
-  port: 20800
-  server: usshs2.gophers.gay
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: 🇨🇳_CN_中国->🇨🇦_CA_加拿大_21@4
-  password: cdb06941-b4e8-4aeb-8cd5-62c129edd075
-  port: 26902
-  server: ydyh.nanbei.info
-  type: ss
-- alterId: 0
-  cipher: auto
-  name: 🇬🇧_GB_英国->🇺🇸_US_美国_21@5
-  network: ws
-  port: 2096
-  server: best.fakeopen.link
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: 12859d73-1c81-4909-e071-c1aacfeea221
-  ws-opts:
-    headers:
-      host: us2.fakeopen.link
-    path: /us
-- cipher: chacha20-ietf-poly1305
-  name: 🇨🇳_CN_中国->🇬🇧_GB_英国_21@6
-  password: yCf03vE7phaImZaVjeAF3L
-  port: 19923
-  server: uk.shawbrothersstudio.com
-  type: ss
-- alterId: 0
-  cipher: auto
-  name: 🇹🇼_TW_台湾_21@7
-  network: ws
-  port: 3331
-  server: 46caadb.f2.gladns.com
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: 57e0cb4d-eae5-48ec-8091-149dc2b309e0
-  ws-opts:
-    path: /s/46caadb.fm.apple.com:60980
-- alterId: 0
-  cipher: auto
-  name: 🇺🇸_US_美国_6_21@10
-  network: ws
-  port: 22222
-  server: 24.199.111.70
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 2ef8e4ba-187d-4d50-d1eb-99ae641e3df8
-  ws-opts:
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 🇨🇳_CN_中国->🇮🇱_IL_以色列_21@11
-  network: ws
-  port: 10005
-  server: 103.235.18.2
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: a783230b-cd66-4492-9517-7f6cf569e1c9
-  ws-opts:
-    headers:
-      host: ylsl.kxking.eu.org
-    path: /vm?ed=2048
-- name: 🇮🇪_IE_爱尔兰_21@13
-  network: tcp
-  password: telegram-id-privatevpns
-  port: 22222
-  server: 99.80.79.181
-  skip-cert-verify: true
-  sni: trj.rollingnext.co.uk
-  type: trojan
-  udp: true
 proxy-groups:
 - name: 🚀 节点选择
   proxies:
@@ -3344,16 +3237,6 @@ proxy-groups:
   - 🇨🇳_CN_中国->🇨🇦_CA_加拿大_20@18
   - 🇺🇸_US_美国_6_20@20
   - 🇨🇳_CN_中国->🇧🇬_BG_保加利亚_20@22
-  - 🇺🇸_US_美国->🇳🇱_NL_荷兰_21@1
-  - 🇺🇸_US_美国_2_21@2
-  - 🇺🇸_US_美国_3_21@3
-  - 🇨🇳_CN_中国->🇨🇦_CA_加拿大_21@4
-  - 🇬🇧_GB_英国->🇺🇸_US_美国_21@5
-  - 🇨🇳_CN_中国->🇬🇧_GB_英国_21@6
-  - 🇹🇼_TW_台湾_21@7
-  - 🇺🇸_US_美国_6_21@10
-  - 🇨🇳_CN_中国->🇮🇱_IL_以色列_21@11
-  - 🇮🇪_IE_爱尔兰_21@13
   type: select
 - interval: 300
   name: ♻️ 自动选择
@@ -3639,16 +3522,6 @@ proxy-groups:
   - 🇨🇳_CN_中国->🇨🇦_CA_加拿大_20@18
   - 🇺🇸_US_美国_6_20@20
   - 🇨🇳_CN_中国->🇧🇬_BG_保加利亚_20@22
-  - 🇺🇸_US_美国->🇳🇱_NL_荷兰_21@1
-  - 🇺🇸_US_美国_2_21@2
-  - 🇺🇸_US_美国_3_21@3
-  - 🇨🇳_CN_中国->🇨🇦_CA_加拿大_21@4
-  - 🇬🇧_GB_英国->🇺🇸_US_美国_21@5
-  - 🇨🇳_CN_中国->🇬🇧_GB_英国_21@6
-  - 🇹🇼_TW_台湾_21@7
-  - 🇺🇸_US_美国_6_21@10
-  - 🇨🇳_CN_中国->🇮🇱_IL_以色列_21@11
-  - 🇮🇪_IE_爱尔兰_21@13
   tolerance: 50
   type: url-test
   url: http://www.gstatic.com/generate_204
@@ -3938,16 +3811,6 @@ proxy-groups:
   - 🇨🇳_CN_中国->🇨🇦_CA_加拿大_20@18
   - 🇺🇸_US_美国_6_20@20
   - 🇨🇳_CN_中国->🇧🇬_BG_保加利亚_20@22
-  - 🇺🇸_US_美国->🇳🇱_NL_荷兰_21@1
-  - 🇺🇸_US_美国_2_21@2
-  - 🇺🇸_US_美国_3_21@3
-  - 🇨🇳_CN_中国->🇨🇦_CA_加拿大_21@4
-  - 🇬🇧_GB_英国->🇺🇸_US_美国_21@5
-  - 🇨🇳_CN_中国->🇬🇧_GB_英国_21@6
-  - 🇹🇼_TW_台湾_21@7
-  - 🇺🇸_US_美国_6_21@10
-  - 🇨🇳_CN_中国->🇮🇱_IL_以色列_21@11
-  - 🇮🇪_IE_爱尔兰_21@13
   type: select
 - name: 📲 电报信息
   proxies:
@@ -4234,16 +4097,6 @@ proxy-groups:
   - 🇨🇳_CN_中国->🇨🇦_CA_加拿大_20@18
   - 🇺🇸_US_美国_6_20@20
   - 🇨🇳_CN_中国->🇧🇬_BG_保加利亚_20@22
-  - 🇺🇸_US_美国->🇳🇱_NL_荷兰_21@1
-  - 🇺🇸_US_美国_2_21@2
-  - 🇺🇸_US_美国_3_21@3
-  - 🇨🇳_CN_中国->🇨🇦_CA_加拿大_21@4
-  - 🇬🇧_GB_英国->🇺🇸_US_美国_21@5
-  - 🇨🇳_CN_中国->🇬🇧_GB_英国_21@6
-  - 🇹🇼_TW_台湾_21@7
-  - 🇺🇸_US_美国_6_21@10
-  - 🇨🇳_CN_中国->🇮🇱_IL_以色列_21@11
-  - 🇮🇪_IE_爱尔兰_21@13
   type: select
 - name: Ⓜ️ 微软服务
   proxies:
@@ -4530,16 +4383,6 @@ proxy-groups:
   - 🇨🇳_CN_中国->🇨🇦_CA_加拿大_20@18
   - 🇺🇸_US_美国_6_20@20
   - 🇨🇳_CN_中国->🇧🇬_BG_保加利亚_20@22
-  - 🇺🇸_US_美国->🇳🇱_NL_荷兰_21@1
-  - 🇺🇸_US_美国_2_21@2
-  - 🇺🇸_US_美国_3_21@3
-  - 🇨🇳_CN_中国->🇨🇦_CA_加拿大_21@4
-  - 🇬🇧_GB_英国->🇺🇸_US_美国_21@5
-  - 🇨🇳_CN_中国->🇬🇧_GB_英国_21@6
-  - 🇹🇼_TW_台湾_21@7
-  - 🇺🇸_US_美国_6_21@10
-  - 🇨🇳_CN_中国->🇮🇱_IL_以色列_21@11
-  - 🇮🇪_IE_爱尔兰_21@13
   type: select
 - name: 🍎 苹果服务
   proxies:
@@ -4826,16 +4669,6 @@ proxy-groups:
   - 🇨🇳_CN_中国->🇨🇦_CA_加拿大_20@18
   - 🇺🇸_US_美国_6_20@20
   - 🇨🇳_CN_中国->🇧🇬_BG_保加利亚_20@22
-  - 🇺🇸_US_美国->🇳🇱_NL_荷兰_21@1
-  - 🇺🇸_US_美国_2_21@2
-  - 🇺🇸_US_美国_3_21@3
-  - 🇨🇳_CN_中国->🇨🇦_CA_加拿大_21@4
-  - 🇬🇧_GB_英国->🇺🇸_US_美国_21@5
-  - 🇨🇳_CN_中国->🇬🇧_GB_英国_21@6
-  - 🇹🇼_TW_台湾_21@7
-  - 🇺🇸_US_美国_6_21@10
-  - 🇨🇳_CN_中国->🇮🇱_IL_以色列_21@11
-  - 🇮🇪_IE_爱尔兰_21@13
   type: select
 - name: 🎯 全球直连
   proxies:
@@ -5139,16 +4972,6 @@ proxy-groups:
   - 🇨🇳_CN_中国->🇨🇦_CA_加拿大_20@18
   - 🇺🇸_US_美国_6_20@20
   - 🇨🇳_CN_中国->🇧🇬_BG_保加利亚_20@22
-  - 🇺🇸_US_美国->🇳🇱_NL_荷兰_21@1
-  - 🇺🇸_US_美国_2_21@2
-  - 🇺🇸_US_美国_3_21@3
-  - 🇨🇳_CN_中国->🇨🇦_CA_加拿大_21@4
-  - 🇬🇧_GB_英国->🇺🇸_US_美国_21@5
-  - 🇨🇳_CN_中国->🇬🇧_GB_英国_21@6
-  - 🇹🇼_TW_台湾_21@7
-  - 🇺🇸_US_美国_6_21@10
-  - 🇨🇳_CN_中国->🇮🇱_IL_以色列_21@11
-  - 🇮🇪_IE_爱尔兰_21@13
   type: select
 rules:
 - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
