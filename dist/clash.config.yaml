@@ -2448,93 +2448,6 @@ proxies:
   sni: trojan.burgerip.co.uk
   type: trojan
   udp: true
-- alpn:
-  - h2http/1.1
-  grpc-opts:
-    grpc-service-name: trojan
-  name: 🇺🇸_US_美国->🇩🇪_DE_德国_1_17@1
-  network: grpc
-  password: A9l6_eMgylRZu0YiSqunsQ
-  port: 2096
-  server: 104.21.34.77
-  skip-cert-verify: true
-  sni: usa.iwontletgo.cloud
-  type: trojan
-  udp: true
-- alterId: 0
-  cipher: auto
-  name: 🇺🇸_US_美国->🇩🇪_DE_德国_2_17@2
-  network: ws
-  port: 2095
-  server: zula.ir
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 3e540874-0730-452a-8b2e-e719b5d34470
-  ws-opts:
-    headers:
-      host: Yakuza.unique69.com
-    path: /@HosseinStore_Za/@HosseinStore_Za/@HosseinStore_Za/@HosseinStore_Za/@HosseinStore_Za/@HosseinStore_Za/@HosseinStore_Za/@HosseinStore_Za/@HosseinStore_Za/@HosseinStore_Za
-- alterId: 0
-  cipher: auto
-  name: 🇺🇸_US_美国->🇩🇪_DE_德国_3_17@3
-  network: ws
-  port: 2095
-  server: 104.26.14.85
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 3e540874-0730-452a-8b2e-e719b5d34470
-  ws-opts:
-    headers:
-      host: Yakuza.unique69.com
-    path: /@HosseinStore_Za/@HosseinStore_Za/@HosseinStore_Za/@HosseinStore_Za/@HosseinStore_Za/@HosseinStore_Za/@HosseinStore_Za/@HosseinStore_Za/@HosseinStore_Za/@HosseinStore_Za
-- alterId: 0
-  cipher: auto
-  name: 🇺🇸_US_美国_2_17@4
-  network: ws
-  port: 2095
-  server: Tgju.org
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 3e540874-0730-452a-8b2e-e719b5d34470
-  ws-opts:
-    headers:
-      host: Yakuza.unique69.com
-    path: /@HosseinStore_Za/@HosseinStore_Za/@HosseinStore_Za/@HosseinStore_Za/@HosseinStore_Za/@HosseinStore_Za/@HosseinStore_Za/@HosseinStore_Za/@HosseinStore_Za/@HosseinStore_Za
-- cipher: chacha20-ietf-poly1305
-  name: 🇨🇦_CA_加拿大_1_17@8
-  password: qkotZ0f94vUH38YhrXGkUd
-  port: 443
-  server: ca.yangon.club
-  type: ss
-- alterId: 0
-  cipher: auto
-  name: 🇺🇸_US_美国->🇨🇦_CA_加拿大_1_17@15
-  network: ws
-  port: 8880
-  server: 104.19.21.24
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 028c8131-9e3e-4836-94ac-ea7f24d4d05a
-  ws-opts:
-    headers:
-      host: funk-england-indirect-gospel.trycloudflare.com
-    path: 028c8131-9e3e-4836-94ac-ea7f24d4d05a-vm
-- cipher: aes-128-gcm
-  name: 🇬🇧_GB_英国_2_17@27
-  password: shadowsocks
-  port: 443
-  server: 212.102.53.196
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: 🇨🇦_CA_加拿大_2_17@42
-  password: qkotZ0f94vUH38YhrXGkUd
-  port: 443
-  server: 162.221.207.62
-  type: ss
 proxy-groups:
 - name: 🚀 节点选择
   proxies:
@@ -2842,14 +2755,6 @@ proxy-groups:
   - 🇬🇧_GB_英国_2_16@16
   - 🇸🇪_SE_瑞典_16@32
   - 🇺🇸_US_美国_8_16@33
-  - 🇺🇸_US_美国->🇩🇪_DE_德国_1_17@1
-  - 🇺🇸_US_美国->🇩🇪_DE_德国_2_17@2
-  - 🇺🇸_US_美国->🇩🇪_DE_德国_3_17@3
-  - 🇺🇸_US_美国_2_17@4
-  - 🇨🇦_CA_加拿大_1_17@8
-  - 🇺🇸_US_美国->🇨🇦_CA_加拿大_1_17@15
-  - 🇬🇧_GB_英国_2_17@27
-  - 🇨🇦_CA_加拿大_2_17@42
   type: select
 - interval: 300
   name: ♻️ 自动选择
@@ -3156,14 +3061,6 @@ proxy-groups:
   - 🇬🇧_GB_英国_2_16@16
   - 🇸🇪_SE_瑞典_16@32
   - 🇺🇸_US_美国_8_16@33
-  - 🇺🇸_US_美国->🇩🇪_DE_德国_1_17@1
-  - 🇺🇸_US_美国->🇩🇪_DE_德国_2_17@2
-  - 🇺🇸_US_美国->🇩🇪_DE_德国_3_17@3
-  - 🇺🇸_US_美国_2_17@4
-  - 🇨🇦_CA_加拿大_1_17@8
-  - 🇺🇸_US_美国->🇨🇦_CA_加拿大_1_17@15
-  - 🇬🇧_GB_英国_2_17@27
-  - 🇨🇦_CA_加拿大_2_17@42
   tolerance: 50
   type: url-test
   url: http://www.gstatic.com/generate_204
@@ -3474,14 +3371,6 @@ proxy-groups:
   - 🇬🇧_GB_英国_2_16@16
   - 🇸🇪_SE_瑞典_16@32
   - 🇺🇸_US_美国_8_16@33
-  - 🇺🇸_US_美国->🇩🇪_DE_德国_1_17@1
-  - 🇺🇸_US_美国->🇩🇪_DE_德国_2_17@2
-  - 🇺🇸_US_美国->🇩🇪_DE_德国_3_17@3
-  - 🇺🇸_US_美国_2_17@4
-  - 🇨🇦_CA_加拿大_1_17@8
-  - 🇺🇸_US_美国->🇨🇦_CA_加拿大_1_17@15
-  - 🇬🇧_GB_英国_2_17@27
-  - 🇨🇦_CA_加拿大_2_17@42
   type: select
 - name: 📲 电报信息
   proxies:
@@ -3789,14 +3678,6 @@ proxy-groups:
   - 🇬🇧_GB_英国_2_16@16
   - 🇸🇪_SE_瑞典_16@32
   - 🇺🇸_US_美国_8_16@33
-  - 🇺🇸_US_美国->🇩🇪_DE_德国_1_17@1
-  - 🇺🇸_US_美国->🇩🇪_DE_德国_2_17@2
-  - 🇺🇸_US_美国->🇩🇪_DE_德国_3_17@3
-  - 🇺🇸_US_美国_2_17@4
-  - 🇨🇦_CA_加拿大_1_17@8
-  - 🇺🇸_US_美国->🇨🇦_CA_加拿大_1_17@15
-  - 🇬🇧_GB_英国_2_17@27
-  - 🇨🇦_CA_加拿大_2_17@42
   type: select
 - name: Ⓜ️ 微软服务
   proxies:
@@ -4104,14 +3985,6 @@ proxy-groups:
   - 🇬🇧_GB_英国_2_16@16
   - 🇸🇪_SE_瑞典_16@32
   - 🇺🇸_US_美国_8_16@33
-  - 🇺🇸_US_美国->🇩🇪_DE_德国_1_17@1
-  - 🇺🇸_US_美国->🇩🇪_DE_德国_2_17@2
-  - 🇺🇸_US_美国->🇩🇪_DE_德国_3_17@3
-  - 🇺🇸_US_美国_2_17@4
-  - 🇨🇦_CA_加拿大_1_17@8
-  - 🇺🇸_US_美国->🇨🇦_CA_加拿大_1_17@15
-  - 🇬🇧_GB_英国_2_17@27
-  - 🇨🇦_CA_加拿大_2_17@42
   type: select
 - name: 🍎 苹果服务
   proxies:
@@ -4419,14 +4292,6 @@ proxy-groups:
   - 🇬🇧_GB_英国_2_16@16
   - 🇸🇪_SE_瑞典_16@32
   - 🇺🇸_US_美国_8_16@33
-  - 🇺🇸_US_美国->🇩🇪_DE_德国_1_17@1
-  - 🇺🇸_US_美国->🇩🇪_DE_德国_2_17@2
-  - 🇺🇸_US_美国->🇩🇪_DE_德国_3_17@3
-  - 🇺🇸_US_美国_2_17@4
-  - 🇨🇦_CA_加拿大_1_17@8
-  - 🇺🇸_US_美国->🇨🇦_CA_加拿大_1_17@15
-  - 🇬🇧_GB_英国_2_17@27
-  - 🇨🇦_CA_加拿大_2_17@42
   type: select
 - name: 🎯 全球直连
   proxies:
@@ -4751,14 +4616,6 @@ proxy-groups:
   - 🇬🇧_GB_英国_2_16@16
   - 🇸🇪_SE_瑞典_16@32
   - 🇺🇸_US_美国_8_16@33
-  - 🇺🇸_US_美国->🇩🇪_DE_德国_1_17@1
-  - 🇺🇸_US_美国->🇩🇪_DE_德国_2_17@2
-  - 🇺🇸_US_美国->🇩🇪_DE_德国_3_17@3
-  - 🇺🇸_US_美国_2_17@4
-  - 🇨🇦_CA_加拿大_1_17@8
-  - 🇺🇸_US_美国->🇨🇦_CA_加拿大_1_17@15
-  - 🇬🇧_GB_英国_2_17@27
-  - 🇨🇦_CA_加拿大_2_17@42
   type: select
 rules:
 - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
