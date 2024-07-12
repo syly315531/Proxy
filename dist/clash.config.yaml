@@ -2075,110 +2075,6 @@ proxies:
     headers:
       host: De2.vmess.site.
     path: /
-- cipher: aes-256-cfb
-  name: 🇨🇳_CN_中国->🇺🇸_US_美国_2_13@3
-  password: hGkQ6915tD
-  port: 16058
-  server: 59.56.77.178
-  type: ss
-- cipher: aes-256-gcm
-  name: 🇵🇱_PL_波兰_17_13@26
-  password: PCnnH6SQSnfoS27
-  port: 8091
-  server: 51.77.53.200
-  type: ss
-- cipher: aes-256-gcm
-  name: 🇺🇸_US_美国_6_13@29
-  password: Y6R9pAtvxxzmGC
-  port: 5001
-  server: 38.75.136.21
-  type: ss
-- cipher: aes-256-gcm
-  name: 🇺🇸_US_美国_7_13@30
-  password: g5MeD6Ft3CWlJId
-  port: 5003
-  server: 38.75.136.21
-  type: ss
-- cipher: aes-256-gcm
-  name: 🇺🇸_US_美国_8_13@31
-  password: KixLvKzwjekG00rm
-  port: 8080
-  server: 38.75.136.21
-  type: ss
-- name: 🇩🇪_DE_德国_13@32
-  network: tcp
-  password: telegram-id-privatevpns
-  port: 22222
-  server: 18.158.123.27
-  skip-cert-verify: true
-  type: trojan
-  udp: true
-- cipher: aes-256-gcm
-  name: 🇺🇸_US_美国_10_13@34
-  password: RexnBgU7EV5ADxG
-  port: 7002
-  server: 169.197.142.216
-  type: ss
-- cipher: aes-256-gcm
-  name: 🇺🇸_US_美国_11_13@35
-  password: TEzjfAYq2IjtuoS
-  port: 6679
-  server: 169.197.142.216
-  type: ss
-- cipher: aes-256-gcm
-  name: 🇺🇸_US_美国_12_13@36
-  password: faBAoD54k87UJG7
-  port: 2376
-  server: 169.197.142.216
-  type: ss
-- cipher: aes-256-gcm
-  name: 🇺🇸_US_美国_13_13@37
-  password: RexnBgU7EV5ADxG
-  port: 7001
-  server: 38.75.136.21
-  type: ss
-- cipher: aes-256-gcm
-  name: 🇺🇸_US_美国_14_13@38
-  password: Y6R9pAtvxxzmGC
-  port: 8888
-  server: 38.75.136.21
-  type: ss
-- cipher: aes-256-gcm
-  name: 🇺🇸_US_美国_15_13@39
-  password: kDWvXYZoTBcGkC4
-  port: 8881
-  server: 38.75.136.21
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: 🇨🇳_CN_中国->🇩🇪_DE_德国_13@40
-  password: 54d73e4b-054d-4148-bab6-22646f4431a9
-  port: 60033
-  server: 5.forlive.live
-  type: ss
-- cipher: aes-256-gcm
-  name: 🇺🇸_US_美国_16_13@41
-  password: g5MeD6Ft3CWlJId
-  port: 5004
-  server: 38.75.136.21
-  type: ss
-- cipher: aes-256-gcm
-  name: 🇺🇸_US_美国_17_13@42
-  password: TEzjfAYq2IjtuoS
-  port: 6697
-  server: 38.75.136.21
-  type: ss
-- cipher: aes-256-gcm
-  name: 🇺🇸_US_美国_18_13@43
-  password: FoOiGlkAA9yPEGP
-  port: 7307
-  server: 38.75.136.21
-  type: ss
-- cipher: aes-256-gcm
-  name: 🇺🇸_US_美国_19_13@44
-  password: e4FCWrgpkji3QY
-  port: 9102
-  server: 38.75.136.21
-  type: ss
 proxy-groups:
 - name: 🚀 节点选择
   proxies:
@@ -2438,23 +2334,6 @@ proxy-groups:
   - 🇵🇱_PL_波兰_13_12@21
   - 🇺🇸_US_美国_8_12@26
   - 🇺🇸_US_美国_9_12@27
-  - 🇨🇳_CN_中国->🇺🇸_US_美国_2_13@3
-  - 🇵🇱_PL_波兰_17_13@26
-  - 🇺🇸_US_美国_6_13@29
-  - 🇺🇸_US_美国_7_13@30
-  - 🇺🇸_US_美国_8_13@31
-  - 🇩🇪_DE_德国_13@32
-  - 🇺🇸_US_美国_10_13@34
-  - 🇺🇸_US_美国_11_13@35
-  - 🇺🇸_US_美国_12_13@36
-  - 🇺🇸_US_美国_13_13@37
-  - 🇺🇸_US_美国_14_13@38
-  - 🇺🇸_US_美国_15_13@39
-  - 🇨🇳_CN_中国->🇩🇪_DE_德国_13@40
-  - 🇺🇸_US_美国_16_13@41
-  - 🇺🇸_US_美国_17_13@42
-  - 🇺🇸_US_美国_18_13@43
-  - 🇺🇸_US_美国_19_13@44
   type: select
 - interval: 300
   name: ♻️ 自动选择
@@ -2713,23 +2592,6 @@ proxy-groups:
   - 🇵🇱_PL_波兰_13_12@21
   - 🇺🇸_US_美国_8_12@26
   - 🇺🇸_US_美国_9_12@27
-  - 🇨🇳_CN_中国->🇺🇸_US_美国_2_13@3
-  - 🇵🇱_PL_波兰_17_13@26
-  - 🇺🇸_US_美国_6_13@29
-  - 🇺🇸_US_美国_7_13@30
-  - 🇺🇸_US_美国_8_13@31
-  - 🇩🇪_DE_德国_13@32
-  - 🇺🇸_US_美国_10_13@34
-  - 🇺🇸_US_美国_11_13@35
-  - 🇺🇸_US_美国_12_13@36
-  - 🇺🇸_US_美国_13_13@37
-  - 🇺🇸_US_美国_14_13@38
-  - 🇺🇸_US_美国_15_13@39
-  - 🇨🇳_CN_中国->🇩🇪_DE_德国_13@40
-  - 🇺🇸_US_美国_16_13@41
-  - 🇺🇸_US_美国_17_13@42
-  - 🇺🇸_US_美国_18_13@43
-  - 🇺🇸_US_美国_19_13@44
   tolerance: 50
   type: url-test
   url: http://www.gstatic.com/generate_204
@@ -2992,23 +2854,6 @@ proxy-groups:
   - 🇵🇱_PL_波兰_13_12@21
   - 🇺🇸_US_美国_8_12@26
   - 🇺🇸_US_美国_9_12@27
-  - 🇨🇳_CN_中国->🇺🇸_US_美国_2_13@3
-  - 🇵🇱_PL_波兰_17_13@26
-  - 🇺🇸_US_美国_6_13@29
-  - 🇺🇸_US_美国_7_13@30
-  - 🇺🇸_US_美国_8_13@31
-  - 🇩🇪_DE_德国_13@32
-  - 🇺🇸_US_美国_10_13@34
-  - 🇺🇸_US_美国_11_13@35
-  - 🇺🇸_US_美国_12_13@36
-  - 🇺🇸_US_美国_13_13@37
-  - 🇺🇸_US_美国_14_13@38
-  - 🇺🇸_US_美国_15_13@39
-  - 🇨🇳_CN_中国->🇩🇪_DE_德国_13@40
-  - 🇺🇸_US_美国_16_13@41
-  - 🇺🇸_US_美国_17_13@42
-  - 🇺🇸_US_美国_18_13@43
-  - 🇺🇸_US_美国_19_13@44
   type: select
 - name: 📲 电报信息
   proxies:
@@ -3268,23 +3113,6 @@ proxy-groups:
   - 🇵🇱_PL_波兰_13_12@21
   - 🇺🇸_US_美国_8_12@26
   - 🇺🇸_US_美国_9_12@27
-  - 🇨🇳_CN_中国->🇺🇸_US_美国_2_13@3
-  - 🇵🇱_PL_波兰_17_13@26
-  - 🇺🇸_US_美国_6_13@29
-  - 🇺🇸_US_美国_7_13@30
-  - 🇺🇸_US_美国_8_13@31
-  - 🇩🇪_DE_德国_13@32
-  - 🇺🇸_US_美国_10_13@34
-  - 🇺🇸_US_美国_11_13@35
-  - 🇺🇸_US_美国_12_13@36
-  - 🇺🇸_US_美国_13_13@37
-  - 🇺🇸_US_美国_14_13@38
-  - 🇺🇸_US_美国_15_13@39
-  - 🇨🇳_CN_中国->🇩🇪_DE_德国_13@40
-  - 🇺🇸_US_美国_16_13@41
-  - 🇺🇸_US_美国_17_13@42
-  - 🇺🇸_US_美国_18_13@43
-  - 🇺🇸_US_美国_19_13@44
   type: select
 - name: Ⓜ️ 微软服务
   proxies:
@@ -3544,23 +3372,6 @@ proxy-groups:
   - 🇵🇱_PL_波兰_13_12@21
   - 🇺🇸_US_美国_8_12@26
   - 🇺🇸_US_美国_9_12@27
-  - 🇨🇳_CN_中国->🇺🇸_US_美国_2_13@3
-  - 🇵🇱_PL_波兰_17_13@26
-  - 🇺🇸_US_美国_6_13@29
-  - 🇺🇸_US_美国_7_13@30
-  - 🇺🇸_US_美国_8_13@31
-  - 🇩🇪_DE_德国_13@32
-  - 🇺🇸_US_美国_10_13@34
-  - 🇺🇸_US_美国_11_13@35
-  - 🇺🇸_US_美国_12_13@36
-  - 🇺🇸_US_美国_13_13@37
-  - 🇺🇸_US_美国_14_13@38
-  - 🇺🇸_US_美国_15_13@39
-  - 🇨🇳_CN_中国->🇩🇪_DE_德国_13@40
-  - 🇺🇸_US_美国_16_13@41
-  - 🇺🇸_US_美国_17_13@42
-  - 🇺🇸_US_美国_18_13@43
-  - 🇺🇸_US_美国_19_13@44
   type: select
 - name: 🍎 苹果服务
   proxies:
@@ -3820,23 +3631,6 @@ proxy-groups:
   - 🇵🇱_PL_波兰_13_12@21
   - 🇺🇸_US_美国_8_12@26
   - 🇺🇸_US_美国_9_12@27
-  - 🇨🇳_CN_中国->🇺🇸_US_美国_2_13@3
-  - 🇵🇱_PL_波兰_17_13@26
-  - 🇺🇸_US_美国_6_13@29
-  - 🇺🇸_US_美国_7_13@30
-  - 🇺🇸_US_美国_8_13@31
-  - 🇩🇪_DE_德国_13@32
-  - 🇺🇸_US_美国_10_13@34
-  - 🇺🇸_US_美国_11_13@35
-  - 🇺🇸_US_美国_12_13@36
-  - 🇺🇸_US_美国_13_13@37
-  - 🇺🇸_US_美国_14_13@38
-  - 🇺🇸_US_美国_15_13@39
-  - 🇨🇳_CN_中国->🇩🇪_DE_德国_13@40
-  - 🇺🇸_US_美国_16_13@41
-  - 🇺🇸_US_美国_17_13@42
-  - 🇺🇸_US_美国_18_13@43
-  - 🇺🇸_US_美国_19_13@44
   type: select
 - name: 🎯 全球直连
   proxies:
@@ -4113,23 +3907,6 @@ proxy-groups:
   - 🇵🇱_PL_波兰_13_12@21
   - 🇺🇸_US_美国_8_12@26
   - 🇺🇸_US_美国_9_12@27
-  - 🇨🇳_CN_中国->🇺🇸_US_美国_2_13@3
-  - 🇵🇱_PL_波兰_17_13@26
-  - 🇺🇸_US_美国_6_13@29
-  - 🇺🇸_US_美国_7_13@30
-  - 🇺🇸_US_美国_8_13@31
-  - 🇩🇪_DE_德国_13@32
-  - 🇺🇸_US_美国_10_13@34
-  - 🇺🇸_US_美国_11_13@35
-  - 🇺🇸_US_美国_12_13@36
-  - 🇺🇸_US_美国_13_13@37
-  - 🇺🇸_US_美国_14_13@38
-  - 🇺🇸_US_美国_15_13@39
-  - 🇨🇳_CN_中国->🇩🇪_DE_德国_13@40
-  - 🇺🇸_US_美国_16_13@41
-  - 🇺🇸_US_美国_17_13@42
-  - 🇺🇸_US_美国_18_13@43
-  - 🇺🇸_US_美国_19_13@44
   type: select
 rules:
 - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
