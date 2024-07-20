@@ -624,100 +624,6 @@ proxies:
   port: 443
   server: 45.76.241.66
   type: trojan
-- alterId: 0
-  cipher: auto
-  name: 🇺🇸_US_美国_1_5@0
-  network: ws
-  port: 80
-  server: 104.20.247.40
-  sni: ''
-  type: vmess
-  uuid: 078c86a6-8dde-4dcc-a08e-378990a8b3b2
-- alterId: 64
-  cipher: auto
-  name: 🇨🇳_CN_中国_1_5@1
-  network: tcp
-  port: 41490
-  server: 183.240.235.166
-  sni: ''
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- alterId: 0
-  cipher: auto
-  name: 🇺🇸_US_美国->🇨🇳_CN_中国_5@2
-  network: ws
-  port: 2086
-  server: 104.19.21.63
-  sni: ip11.freegradely.xyz
-  type: vmess
-  uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339
-- cipher: aes-128-gcm
-  name: 🇨🇳_CN_中国->🇸🇬_SG_新加坡_5@3
-  password: e19c3b26-dd0e-414b-8c40-ce1b46a4b45e
-  port: 56705
-  server: gy.666666222.shop
-  type: ss
-- alterId: 0
-  cipher: auto
-  name: 🇺🇸_US_美国->🇪🇸_ES_西班牙_5@4
-  network: ws
-  port: 80
-  server: 104.17.184.120
-  sni: ''
-  type: vmess
-  uuid: 078c86a6-8dde-4dcc-a08e-378990a8b3b2
-- alterId: 0
-  cipher: auto
-  name: 🇺🇸_US_美国_2_5@5
-  network: ws
-  port: 8080
-  server: 104.19.42.49
-  sni: ''
-  type: vmess
-  uuid: c0453a16-67e9-4eab-bdc9-b9624ad6bd29
-- alterId: 0
-  cipher: auto
-  name: 🇺🇸_US_美国_4_5@8
-  network: ws
-  port: 80
-  server: 104.19.38.10
-  sni: ''
-  type: vmess
-  uuid: d726eb31-0c9e-49f9-8968-59c06f4ea15c
-- alterId: 64
-  cipher: auto
-  name: 🇨🇳_CN_中国->🇺🇸_US_美国_1_5@10
-  network: tcp
-  port: 32998
-  server: 183.240.235.164
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- alterId: 0
-  cipher: auto
-  name: 🇺🇸_US_美国_5_5@11
-  network: ws
-  port: 80
-  server: 162.159.136.98
-  sni: ''
-  type: vmess
-  uuid: f1b6bc05-40dd-4180-ca18-b05288fd33bb
-- alterId: 0
-  cipher: auto
-  name: 🇨🇳_CN_中国->🇳🇱_NL_荷兰_5@16
-  network: ws
-  port: 46011
-  server: mmjp11.micloud.buzz
-  sni: ''
-  type: vmess
-  uuid: e0affd30-6517-4f32-a2bd-71faab70b40a
-- alterId: 64
-  cipher: auto
-  name: 🇨🇳_CN_中国_3_5@17
-  network: tcp
-  port: 50582
-  server: 120.232.153.27
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 proxy-groups:
 - name: 🚀 节点选择
   proxies:
@@ -808,17 +714,6 @@ proxy-groups:
   - 🇺🇸_US_美国->🇪🇸_ES_西班牙_4@6
   - 🇯🇵_JP_日本_4@10
   - 🇺🇸_US_美国_2_4@11
-  - 🇺🇸_US_美国_1_5@0
-  - 🇨🇳_CN_中国_1_5@1
-  - 🇺🇸_US_美国->🇨🇳_CN_中国_5@2
-  - 🇨🇳_CN_中国->🇸🇬_SG_新加坡_5@3
-  - 🇺🇸_US_美国->🇪🇸_ES_西班牙_5@4
-  - 🇺🇸_US_美国_2_5@5
-  - 🇺🇸_US_美国_4_5@8
-  - 🇨🇳_CN_中国->🇺🇸_US_美国_1_5@10
-  - 🇺🇸_US_美国_5_5@11
-  - 🇨🇳_CN_中国->🇳🇱_NL_荷兰_5@16
-  - 🇨🇳_CN_中国_3_5@17
   type: select
 - interval: 300
   name: ♻️ 自动选择
@@ -908,17 +803,6 @@ proxy-groups:
   - 🇺🇸_US_美国->🇪🇸_ES_西班牙_4@6
   - 🇯🇵_JP_日本_4@10
   - 🇺🇸_US_美国_2_4@11
-  - 🇺🇸_US_美国_1_5@0
-  - 🇨🇳_CN_中国_1_5@1
-  - 🇺🇸_US_美国->🇨🇳_CN_中国_5@2
-  - 🇨🇳_CN_中国->🇸🇬_SG_新加坡_5@3
-  - 🇺🇸_US_美国->🇪🇸_ES_西班牙_5@4
-  - 🇺🇸_US_美国_2_5@5
-  - 🇺🇸_US_美国_4_5@8
-  - 🇨🇳_CN_中国->🇺🇸_US_美国_1_5@10
-  - 🇺🇸_US_美国_5_5@11
-  - 🇨🇳_CN_中国->🇳🇱_NL_荷兰_5@16
-  - 🇨🇳_CN_中国_3_5@17
   tolerance: 50
   type: url-test
   url: http://www.gstatic.com/generate_204
@@ -1012,17 +896,6 @@ proxy-groups:
   - 🇺🇸_US_美国->🇪🇸_ES_西班牙_4@6
   - 🇯🇵_JP_日本_4@10
   - 🇺🇸_US_美国_2_4@11
-  - 🇺🇸_US_美国_1_5@0
-  - 🇨🇳_CN_中国_1_5@1
-  - 🇺🇸_US_美国->🇨🇳_CN_中国_5@2
-  - 🇨🇳_CN_中国->🇸🇬_SG_新加坡_5@3
-  - 🇺🇸_US_美国->🇪🇸_ES_西班牙_5@4
-  - 🇺🇸_US_美国_2_5@5
-  - 🇺🇸_US_美国_4_5@8
-  - 🇨🇳_CN_中国->🇺🇸_US_美国_1_5@10
-  - 🇺🇸_US_美国_5_5@11
-  - 🇨🇳_CN_中国->🇳🇱_NL_荷兰_5@16
-  - 🇨🇳_CN_中国_3_5@17
   type: select
 - name: 📲 电报信息
   proxies:
@@ -1113,17 +986,6 @@ proxy-groups:
   - 🇺🇸_US_美国->🇪🇸_ES_西班牙_4@6
   - 🇯🇵_JP_日本_4@10
   - 🇺🇸_US_美国_2_4@11
-  - 🇺🇸_US_美国_1_5@0
-  - 🇨🇳_CN_中国_1_5@1
-  - 🇺🇸_US_美国->🇨🇳_CN_中国_5@2
-  - 🇨🇳_CN_中国->🇸🇬_SG_新加坡_5@3
-  - 🇺🇸_US_美国->🇪🇸_ES_西班牙_5@4
-  - 🇺🇸_US_美国_2_5@5
-  - 🇺🇸_US_美国_4_5@8
-  - 🇨🇳_CN_中国->🇺🇸_US_美国_1_5@10
-  - 🇺🇸_US_美国_5_5@11
-  - 🇨🇳_CN_中国->🇳🇱_NL_荷兰_5@16
-  - 🇨🇳_CN_中国_3_5@17
   type: select
 - name: Ⓜ️ 微软服务
   proxies:
@@ -1214,17 +1076,6 @@ proxy-groups:
   - 🇺🇸_US_美国->🇪🇸_ES_西班牙_4@6
   - 🇯🇵_JP_日本_4@10
   - 🇺🇸_US_美国_2_4@11
-  - 🇺🇸_US_美国_1_5@0
-  - 🇨🇳_CN_中国_1_5@1
-  - 🇺🇸_US_美国->🇨🇳_CN_中国_5@2
-  - 🇨🇳_CN_中国->🇸🇬_SG_新加坡_5@3
-  - 🇺🇸_US_美国->🇪🇸_ES_西班牙_5@4
-  - 🇺🇸_US_美国_2_5@5
-  - 🇺🇸_US_美国_4_5@8
-  - 🇨🇳_CN_中国->🇺🇸_US_美国_1_5@10
-  - 🇺🇸_US_美国_5_5@11
-  - 🇨🇳_CN_中国->🇳🇱_NL_荷兰_5@16
-  - 🇨🇳_CN_中国_3_5@17
   type: select
 - name: 🍎 苹果服务
   proxies:
@@ -1315,17 +1166,6 @@ proxy-groups:
   - 🇺🇸_US_美国->🇪🇸_ES_西班牙_4@6
   - 🇯🇵_JP_日本_4@10
   - 🇺🇸_US_美国_2_4@11
-  - 🇺🇸_US_美国_1_5@0
-  - 🇨🇳_CN_中国_1_5@1
-  - 🇺🇸_US_美国->🇨🇳_CN_中国_5@2
-  - 🇨🇳_CN_中国->🇸🇬_SG_新加坡_5@3
-  - 🇺🇸_US_美国->🇪🇸_ES_西班牙_5@4
-  - 🇺🇸_US_美国_2_5@5
-  - 🇺🇸_US_美国_4_5@8
-  - 🇨🇳_CN_中国->🇺🇸_US_美国_1_5@10
-  - 🇺🇸_US_美国_5_5@11
-  - 🇨🇳_CN_中国->🇳🇱_NL_荷兰_5@16
-  - 🇨🇳_CN_中国_3_5@17
   type: select
 - name: 🎯 全球直连
   proxies:
@@ -1433,17 +1273,6 @@ proxy-groups:
   - 🇺🇸_US_美国->🇪🇸_ES_西班牙_4@6
   - 🇯🇵_JP_日本_4@10
   - 🇺🇸_US_美国_2_4@11
-  - 🇺🇸_US_美国_1_5@0
-  - 🇨🇳_CN_中国_1_5@1
-  - 🇺🇸_US_美国->🇨🇳_CN_中国_5@2
-  - 🇨🇳_CN_中国->🇸🇬_SG_新加坡_5@3
-  - 🇺🇸_US_美国->🇪🇸_ES_西班牙_5@4
-  - 🇺🇸_US_美国_2_5@5
-  - 🇺🇸_US_美国_4_5@8
-  - 🇨🇳_CN_中国->🇺🇸_US_美国_1_5@10
-  - 🇺🇸_US_美国_5_5@11
-  - 🇨🇳_CN_中国->🇳🇱_NL_荷兰_5@16
-  - 🇨🇳_CN_中国_3_5@17
   type: select
 rules:
 - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
