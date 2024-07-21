@@ -555,75 +555,6 @@ proxies:
   port: 9015
   server: 103.172.116.79
   type: ss
-- name: 🇰🇷_KR_韩国->🇺🇸_US_美国_4@0
-  network: ws
-  password: moist
-  port: 27335
-  server: 116.47.10.236
-  sni: trojan.freenods.sbs
-  type: trojan
-  udp: true
-- name: 🇺🇸_US_美国_1_4@1
-  network: grpc
-  password: qj1Dz1CJmFQRhWr1SP80aA
-  port: 443
-  server: 104.16.1.10
-  sni: cdn-21.gsmxreality.com
-  type: trojan
-  udp: true
-- alterId: 0
-  cipher: auto
-  name: 🇺🇸_US_美国->🇨🇳_CN_中国_4@2
-  network: ws
-  port: 8080
-  server: 104.19.47.186
-  sni: ''
-  type: vmess
-  uuid: b551aa22-22af-11ee-b8d8-f23c932eb68d
-- alterId: 0
-  cipher: auto
-  name: 🇺🇸_US_美国->🇸🇪_SE_瑞典_4@3
-  network: ws
-  port: 80
-  server: 104.16.45.212
-  sni: ''
-  type: vmess
-  uuid: c0453a16-67e9-4eab-bdc9-b9624ad6bd29
-- alterId: 0
-  cipher: auto
-  name: 🇺🇸_US_美国->🇨🇦_CA_加拿大_1_4@4
-  network: ws
-  port: 2086
-  server: 104.19.55.49
-  sni: ip11.freegradely.xyz
-  type: vmess
-  uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339
-- cipher: 2022-blake3-chacha20-poly1305
-  name: 🇦🇱_AL_阿尔巴尼亚->🇺🇸_US_美国_4@5
-  password: 7/bb9x3TJQ4Y5SRA/Al3OdwxIk4uf3Jg8N9wDQg+Uto=
-  port: 11223
-  server: 109.104.152.186
-  type: ss
-- alterId: 0
-  cipher: auto
-  name: 🇺🇸_US_美国->🇪🇸_ES_西班牙_4@6
-  network: ws
-  port: 80
-  server: 104.17.199.24
-  sni: ''
-  type: vmess
-  uuid: 078c86a6-8dde-4dcc-a08e-378990a8b3b2
-- cipher: aes-256-cfb
-  name: 🇯🇵_JP_日本_4@10
-  password: amazonskr05
-  port: 443
-  server: 18.181.170.157
-  type: ss
-- name: 🇺🇸_US_美国_2_4@11
-  password: wkmY1R4EcP
-  port: 443
-  server: 45.76.241.66
-  type: trojan
 proxy-groups:
 - name: 🚀 节点选择
   proxies:
@@ -705,15 +636,6 @@ proxy-groups:
   - 🇺🇸_US_美国_6_3@16
   - 🇨🇳_CN_中国_3_3@18
   - 未知_3_3@20
-  - 🇰🇷_KR_韩国->🇺🇸_US_美国_4@0
-  - 🇺🇸_US_美国_1_4@1
-  - 🇺🇸_US_美国->🇨🇳_CN_中国_4@2
-  - 🇺🇸_US_美国->🇸🇪_SE_瑞典_4@3
-  - 🇺🇸_US_美国->🇨🇦_CA_加拿大_1_4@4
-  - 🇦🇱_AL_阿尔巴尼亚->🇺🇸_US_美国_4@5
-  - 🇺🇸_US_美国->🇪🇸_ES_西班牙_4@6
-  - 🇯🇵_JP_日本_4@10
-  - 🇺🇸_US_美国_2_4@11
   type: select
 - interval: 300
   name: ♻️ 自动选择
@@ -794,15 +716,6 @@ proxy-groups:
   - 🇺🇸_US_美国_6_3@16
   - 🇨🇳_CN_中国_3_3@18
   - 未知_3_3@20
-  - 🇰🇷_KR_韩国->🇺🇸_US_美国_4@0
-  - 🇺🇸_US_美国_1_4@1
-  - 🇺🇸_US_美国->🇨🇳_CN_中国_4@2
-  - 🇺🇸_US_美国->🇸🇪_SE_瑞典_4@3
-  - 🇺🇸_US_美国->🇨🇦_CA_加拿大_1_4@4
-  - 🇦🇱_AL_阿尔巴尼亚->🇺🇸_US_美国_4@5
-  - 🇺🇸_US_美国->🇪🇸_ES_西班牙_4@6
-  - 🇯🇵_JP_日本_4@10
-  - 🇺🇸_US_美国_2_4@11
   tolerance: 50
   type: url-test
   url: http://www.gstatic.com/generate_204
@@ -887,15 +800,6 @@ proxy-groups:
   - 🇺🇸_US_美国_6_3@16
   - 🇨🇳_CN_中国_3_3@18
   - 未知_3_3@20
-  - 🇰🇷_KR_韩国->🇺🇸_US_美国_4@0
-  - 🇺🇸_US_美国_1_4@1
-  - 🇺🇸_US_美国->🇨🇳_CN_中国_4@2
-  - 🇺🇸_US_美国->🇸🇪_SE_瑞典_4@3
-  - 🇺🇸_US_美国->🇨🇦_CA_加拿大_1_4@4
-  - 🇦🇱_AL_阿尔巴尼亚->🇺🇸_US_美国_4@5
-  - 🇺🇸_US_美国->🇪🇸_ES_西班牙_4@6
-  - 🇯🇵_JP_日本_4@10
-  - 🇺🇸_US_美国_2_4@11
   type: select
 - name: 📲 电报信息
   proxies:
@@ -977,15 +881,6 @@ proxy-groups:
   - 🇺🇸_US_美国_6_3@16
   - 🇨🇳_CN_中国_3_3@18
   - 未知_3_3@20
-  - 🇰🇷_KR_韩国->🇺🇸_US_美国_4@0
-  - 🇺🇸_US_美国_1_4@1
-  - 🇺🇸_US_美国->🇨🇳_CN_中国_4@2
-  - 🇺🇸_US_美国->🇸🇪_SE_瑞典_4@3
-  - 🇺🇸_US_美国->🇨🇦_CA_加拿大_1_4@4
-  - 🇦🇱_AL_阿尔巴尼亚->🇺🇸_US_美国_4@5
-  - 🇺🇸_US_美国->🇪🇸_ES_西班牙_4@6
-  - 🇯🇵_JP_日本_4@10
-  - 🇺🇸_US_美国_2_4@11
   type: select
 - name: Ⓜ️ 微软服务
   proxies:
@@ -1067,15 +962,6 @@ proxy-groups:
   - 🇺🇸_US_美国_6_3@16
   - 🇨🇳_CN_中国_3_3@18
   - 未知_3_3@20
-  - 🇰🇷_KR_韩国->🇺🇸_US_美国_4@0
-  - 🇺🇸_US_美国_1_4@1
-  - 🇺🇸_US_美国->🇨🇳_CN_中国_4@2
-  - 🇺🇸_US_美国->🇸🇪_SE_瑞典_4@3
-  - 🇺🇸_US_美国->🇨🇦_CA_加拿大_1_4@4
-  - 🇦🇱_AL_阿尔巴尼亚->🇺🇸_US_美国_4@5
-  - 🇺🇸_US_美国->🇪🇸_ES_西班牙_4@6
-  - 🇯🇵_JP_日本_4@10
-  - 🇺🇸_US_美国_2_4@11
   type: select
 - name: 🍎 苹果服务
   proxies:
@@ -1157,15 +1043,6 @@ proxy-groups:
   - 🇺🇸_US_美国_6_3@16
   - 🇨🇳_CN_中国_3_3@18
   - 未知_3_3@20
-  - 🇰🇷_KR_韩国->🇺🇸_US_美国_4@0
-  - 🇺🇸_US_美国_1_4@1
-  - 🇺🇸_US_美国->🇨🇳_CN_中国_4@2
-  - 🇺🇸_US_美国->🇸🇪_SE_瑞典_4@3
-  - 🇺🇸_US_美国->🇨🇦_CA_加拿大_1_4@4
-  - 🇦🇱_AL_阿尔巴尼亚->🇺🇸_US_美国_4@5
-  - 🇺🇸_US_美国->🇪🇸_ES_西班牙_4@6
-  - 🇯🇵_JP_日本_4@10
-  - 🇺🇸_US_美国_2_4@11
   type: select
 - name: 🎯 全球直连
   proxies:
@@ -1264,15 +1141,6 @@ proxy-groups:
   - 🇺🇸_US_美国_6_3@16
   - 🇨🇳_CN_中国_3_3@18
   - 未知_3_3@20
-  - 🇰🇷_KR_韩国->🇺🇸_US_美国_4@0
-  - 🇺🇸_US_美国_1_4@1
-  - 🇺🇸_US_美国->🇨🇳_CN_中国_4@2
-  - 🇺🇸_US_美国->🇸🇪_SE_瑞典_4@3
-  - 🇺🇸_US_美国->🇨🇦_CA_加拿大_1_4@4
-  - 🇦🇱_AL_阿尔巴尼亚->🇺🇸_US_美国_4@5
-  - 🇺🇸_US_美国->🇪🇸_ES_西班牙_4@6
-  - 🇯🇵_JP_日本_4@10
-  - 🇺🇸_US_美国_2_4@11
   type: select
 rules:
 - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
