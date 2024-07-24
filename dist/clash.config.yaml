@@ -154,111 +154,6 @@ proxies:
   sni: ip11.freegradely.xyz
   type: vmess
   uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339
-- cipher: aes-256-gcm
-  name: 🇺🇸_US_美国_1_1@1
-  password: Y6R9pAtvxxzmGC
-  port: 3389
-  server: 23.162.200.28
-  type: ss
-- cipher: aes-256-cfb
-  name: 未知_1_1@2
-  password: f8f7aCzcPKbsF8p3
-  port: 989
-  server: 103.163.218.2
-  type: ss
-- cipher: aes-256-cfb
-  name: 🇺🇾_UY_乌拉圭_1@3
-  password: f8f7aCzcPKbsF8p3
-  port: 989
-  server: 179.27.200.28
-  type: ss
-- cipher: aes-256-cfb
-  name: 未知_2_1@4
-  password: M3t2ZEQcMGRWBjRa
-  port: 9011
-  server: 103.172.116.79
-  type: ss
-- name: 🇨🇦_CA_加拿大->🇷🇺_RU_俄罗斯_1@5
-  password: telegram-id-directvpn
-  port: 22222
-  server: 15.222.218.199
-  sni: trojan.burgerip.co.uk
-  type: trojan
-- name: 🇨🇳_CN_中国->🇫🇷_FR_法国_1@6
-  password: RmdXQRXg
-  port: 23621
-  server: 223.113.54.154
-  type: trojan
-- cipher: aes-256-cfb
-  name: 🇸🇬_SG_新加坡->🏳️_unKnow_未知_1@8
-  password: amazonskr05
-  port: 443
-  server: 18.143.144.112
-  type: ss
-- name: 🇺🇸_US_美国_2_1@10
-  password: telegram-id-privatevpns
-  port: 22222
-  server: 13.50.187.110
-  sni: trojan.burgerip.co.uk
-  type: trojan
-- alterId: 0
-  cipher: auto
-  name: 🇺🇸_US_美国->🇫🇷_FR_法国_1@12
-  network: ws
-  port: 80
-  server: 104.20.12.10
-  sni: ua1-vmess.ctunnel.xyz
-  type: vmess
-  uuid: 2d14e84b-226b-412a-9a3c-ffce70b02bdf
-- alterId: 0
-  cipher: auto
-  name: 🇺🇸_US_美国->🇨🇦_CA_加拿大_4_1@13
-  network: ws
-  port: 2086
-  server: 104.20.17.186
-  type: vmess
-  uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339
-- cipher: aes-256-cfb
-  name: 未知_3_1@14
-  password: KBGjZYcy4SyRShmA
-  port: 9044
-  server: 103.172.116.79
-  type: ss
-- name: 🇫🇷_FR_法国->🇷🇺_RU_俄罗斯_1@15
-  password: telegram-id-privatevpns
-  port: 22222
-  server: 52.47.156.231
-  sni: trojan.burgerip.co.uk
-  type: trojan
-- alterId: 64
-  cipher: auto
-  name: 🇨🇳_CN_中国_1@16
-  network: tcp
-  port: 36002
-  server: 183.240.235.162
-  sni: ''
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- cipher: aes-256-cfb
-  name: 🇿🇦_ZA_南非_1@17
-  password: f8f7aCzcPKbsF8p3
-  port: 989
-  server: 41.203.4.34
-  type: ss
-- alterId: 0
-  cipher: auto
-  name: 🇺🇸_US_美国_3_1@18
-  network: ws
-  port: 2086
-  server: 104.19.46.233
-  type: vmess
-  uuid: 29eebb60-b27b-4a9d-bba5-947763d9205e
-- cipher: aes-256-cfb
-  name: 🇸🇬_SG_新加坡_1@19
-  password: amazonskr05
-  port: 443
-  server: 52.77.246.165
-  type: ss
 proxy-groups:
 - name: 🚀 节点选择
   proxies:
@@ -282,22 +177,6 @@ proxy-groups:
   - 🇺🇸_US_美国_6_0@15
   - 🇺🇸_US_美国->🇫🇷_FR_法国_0@16
   - 🇺🇸_US_美国->🇨🇦_CA_加拿大_4_0@17
-  - 🇺🇸_US_美国_1_1@1
-  - 未知_1_1@2
-  - 🇺🇾_UY_乌拉圭_1@3
-  - 未知_2_1@4
-  - 🇨🇦_CA_加拿大->🇷🇺_RU_俄罗斯_1@5
-  - 🇨🇳_CN_中国->🇫🇷_FR_法国_1@6
-  - 🇸🇬_SG_新加坡->🏳️_unKnow_未知_1@8
-  - 🇺🇸_US_美国_2_1@10
-  - 🇺🇸_US_美国->🇫🇷_FR_法国_1@12
-  - 🇺🇸_US_美国->🇨🇦_CA_加拿大_4_1@13
-  - 未知_3_1@14
-  - 🇫🇷_FR_法国->🇷🇺_RU_俄罗斯_1@15
-  - 🇨🇳_CN_中国_1@16
-  - 🇿🇦_ZA_南非_1@17
-  - 🇺🇸_US_美国_3_1@18
-  - 🇸🇬_SG_新加坡_1@19
   type: select
 - interval: 300
   name: ♻️ 自动选择
@@ -320,22 +199,6 @@ proxy-groups:
   - 🇺🇸_US_美国_6_0@15
   - 🇺🇸_US_美国->🇫🇷_FR_法国_0@16
   - 🇺🇸_US_美国->🇨🇦_CA_加拿大_4_0@17
-  - 🇺🇸_US_美国_1_1@1
-  - 未知_1_1@2
-  - 🇺🇾_UY_乌拉圭_1@3
-  - 未知_2_1@4
-  - 🇨🇦_CA_加拿大->🇷🇺_RU_俄罗斯_1@5
-  - 🇨🇳_CN_中国->🇫🇷_FR_法国_1@6
-  - 🇸🇬_SG_新加坡->🏳️_unKnow_未知_1@8
-  - 🇺🇸_US_美国_2_1@10
-  - 🇺🇸_US_美国->🇫🇷_FR_法国_1@12
-  - 🇺🇸_US_美国->🇨🇦_CA_加拿大_4_1@13
-  - 未知_3_1@14
-  - 🇫🇷_FR_法国->🇷🇺_RU_俄罗斯_1@15
-  - 🇨🇳_CN_中国_1@16
-  - 🇿🇦_ZA_南非_1@17
-  - 🇺🇸_US_美国_3_1@18
-  - 🇸🇬_SG_新加坡_1@19
   tolerance: 50
   type: url-test
   url: http://www.gstatic.com/generate_204
@@ -362,22 +225,6 @@ proxy-groups:
   - 🇺🇸_US_美国_6_0@15
   - 🇺🇸_US_美国->🇫🇷_FR_法国_0@16
   - 🇺🇸_US_美国->🇨🇦_CA_加拿大_4_0@17
-  - 🇺🇸_US_美国_1_1@1
-  - 未知_1_1@2
-  - 🇺🇾_UY_乌拉圭_1@3
-  - 未知_2_1@4
-  - 🇨🇦_CA_加拿大->🇷🇺_RU_俄罗斯_1@5
-  - 🇨🇳_CN_中国->🇫🇷_FR_法国_1@6
-  - 🇸🇬_SG_新加坡->🏳️_unKnow_未知_1@8
-  - 🇺🇸_US_美国_2_1@10
-  - 🇺🇸_US_美国->🇫🇷_FR_法国_1@12
-  - 🇺🇸_US_美国->🇨🇦_CA_加拿大_4_1@13
-  - 未知_3_1@14
-  - 🇫🇷_FR_法国->🇷🇺_RU_俄罗斯_1@15
-  - 🇨🇳_CN_中国_1@16
-  - 🇿🇦_ZA_南非_1@17
-  - 🇺🇸_US_美国_3_1@18
-  - 🇸🇬_SG_新加坡_1@19
   type: select
 - name: 📲 电报信息
   proxies:
@@ -401,22 +248,6 @@ proxy-groups:
   - 🇺🇸_US_美国_6_0@15
   - 🇺🇸_US_美国->🇫🇷_FR_法国_0@16
   - 🇺🇸_US_美国->🇨🇦_CA_加拿大_4_0@17
-  - 🇺🇸_US_美国_1_1@1
-  - 未知_1_1@2
-  - 🇺🇾_UY_乌拉圭_1@3
-  - 未知_2_1@4
-  - 🇨🇦_CA_加拿大->🇷🇺_RU_俄罗斯_1@5
-  - 🇨🇳_CN_中国->🇫🇷_FR_法国_1@6
-  - 🇸🇬_SG_新加坡->🏳️_unKnow_未知_1@8
-  - 🇺🇸_US_美国_2_1@10
-  - 🇺🇸_US_美国->🇫🇷_FR_法国_1@12
-  - 🇺🇸_US_美国->🇨🇦_CA_加拿大_4_1@13
-  - 未知_3_1@14
-  - 🇫🇷_FR_法国->🇷🇺_RU_俄罗斯_1@15
-  - 🇨🇳_CN_中国_1@16
-  - 🇿🇦_ZA_南非_1@17
-  - 🇺🇸_US_美国_3_1@18
-  - 🇸🇬_SG_新加坡_1@19
   type: select
 - name: Ⓜ️ 微软服务
   proxies:
@@ -440,22 +271,6 @@ proxy-groups:
   - 🇺🇸_US_美国_6_0@15
   - 🇺🇸_US_美国->🇫🇷_FR_法国_0@16
   - 🇺🇸_US_美国->🇨🇦_CA_加拿大_4_0@17
-  - 🇺🇸_US_美国_1_1@1
-  - 未知_1_1@2
-  - 🇺🇾_UY_乌拉圭_1@3
-  - 未知_2_1@4
-  - 🇨🇦_CA_加拿大->🇷🇺_RU_俄罗斯_1@5
-  - 🇨🇳_CN_中国->🇫🇷_FR_法国_1@6
-  - 🇸🇬_SG_新加坡->🏳️_unKnow_未知_1@8
-  - 🇺🇸_US_美国_2_1@10
-  - 🇺🇸_US_美国->🇫🇷_FR_法国_1@12
-  - 🇺🇸_US_美国->🇨🇦_CA_加拿大_4_1@13
-  - 未知_3_1@14
-  - 🇫🇷_FR_法国->🇷🇺_RU_俄罗斯_1@15
-  - 🇨🇳_CN_中国_1@16
-  - 🇿🇦_ZA_南非_1@17
-  - 🇺🇸_US_美国_3_1@18
-  - 🇸🇬_SG_新加坡_1@19
   type: select
 - name: 🍎 苹果服务
   proxies:
@@ -479,22 +294,6 @@ proxy-groups:
   - 🇺🇸_US_美国_6_0@15
   - 🇺🇸_US_美国->🇫🇷_FR_法国_0@16
   - 🇺🇸_US_美国->🇨🇦_CA_加拿大_4_0@17
-  - 🇺🇸_US_美国_1_1@1
-  - 未知_1_1@2
-  - 🇺🇾_UY_乌拉圭_1@3
-  - 未知_2_1@4
-  - 🇨🇦_CA_加拿大->🇷🇺_RU_俄罗斯_1@5
-  - 🇨🇳_CN_中国->🇫🇷_FR_法国_1@6
-  - 🇸🇬_SG_新加坡->🏳️_unKnow_未知_1@8
-  - 🇺🇸_US_美国_2_1@10
-  - 🇺🇸_US_美国->🇫🇷_FR_法国_1@12
-  - 🇺🇸_US_美国->🇨🇦_CA_加拿大_4_1@13
-  - 未知_3_1@14
-  - 🇫🇷_FR_法国->🇷🇺_RU_俄罗斯_1@15
-  - 🇨🇳_CN_中国_1@16
-  - 🇿🇦_ZA_南非_1@17
-  - 🇺🇸_US_美国_3_1@18
-  - 🇸🇬_SG_新加坡_1@19
   type: select
 - name: 🎯 全球直连
   proxies:
@@ -535,22 +334,6 @@ proxy-groups:
   - 🇺🇸_US_美国_6_0@15
   - 🇺🇸_US_美国->🇫🇷_FR_法国_0@16
   - 🇺🇸_US_美国->🇨🇦_CA_加拿大_4_0@17
-  - 🇺🇸_US_美国_1_1@1
-  - 未知_1_1@2
-  - 🇺🇾_UY_乌拉圭_1@3
-  - 未知_2_1@4
-  - 🇨🇦_CA_加拿大->🇷🇺_RU_俄罗斯_1@5
-  - 🇨🇳_CN_中国->🇫🇷_FR_法国_1@6
-  - 🇸🇬_SG_新加坡->🏳️_unKnow_未知_1@8
-  - 🇺🇸_US_美国_2_1@10
-  - 🇺🇸_US_美国->🇫🇷_FR_法国_1@12
-  - 🇺🇸_US_美国->🇨🇦_CA_加拿大_4_1@13
-  - 未知_3_1@14
-  - 🇫🇷_FR_法国->🇷🇺_RU_俄罗斯_1@15
-  - 🇨🇳_CN_中国_1@16
-  - 🇿🇦_ZA_南非_1@17
-  - 🇺🇸_US_美国_3_1@18
-  - 🇸🇬_SG_新加坡_1@19
   type: select
 rules:
 - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
